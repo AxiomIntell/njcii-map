@@ -1,0 +1,75 @@
+[
+  {
+    "firm_name": "Lockheed Martin Corporation",
+    "dba_name": "",
+    "address": "199 Borton Landing Rd",
+    "city": "Moorestown",
+    "county": "Burlington",
+    "zip": "08057",
+    "latitude": 39.976608232454,
+    "longitude": -74.918548946344,
+    "naics_primary": "541712",
+    "naics_description": "Research and Development in the Physical, Engineering, and Life Sciences (except Biotechnology)",
+    "sector": "Defense & Aerospace",
+    "subsector": "Radar & Sensor Systems",
+    "total_dod_contract_value_3yr": 18128254816.39,
+    "total_federal_contract_value_3yr": 18128254816.39,
+    "awarding_agencies": [
+      "Missile Defense Agency",
+      "Department of the Army",
+      "Department of the Navy",
+      "Defense Advanced Research Projects Agency",
+      "Department of the Air Force",
+      "Defense Contract Management Agency"
+    ],
+    "certifications": [],
+    "employee_count": "5000+",
+    "cage_code": "02769",
+    "duns_uei": "CWM4UN76ZQW8",
+    "website": "https://www.lockheedmartin.com",
+    "congressional_district": "NJ-01",
+    "geographic_cluster": "South",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "last_updated": "2026-02-27",
+    "slug": "lockheed-martin-corporation",
+    "contract_descriptions": [
+      "PHASE I - BASE -21 MONTHS",
+      "SYSTEM ENGINEERING FOR EARLY START",
+      "IGF::OT::IGF CONTRACT AWARD FOR THE AERIAL DRAGNET PROGRAM."
+    ]
+  },
+  {
+    "firm_name": "Curtiss-Wright Corporation (NJ Operations)",
+    "dba_name": "",
+    "address": "80 E State Route 4, Suite 310",
+    "city": "Paramus",
+    "county": "Bergen",
+    "zip": "07652",
+    "latitude": 40.918397038715,
+    "longitude": -74.0630370145,
+    "naics_primary": "",
+    "naics_description": "",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense Systems & Services",
+    "total_dod_contract_value_3yr": 0.0,
+    "total_federal_contract_value_3yr": 0.0,
+    "awarding_agencies": [],
+    "certifications": [],
+    "employee_count": "501-1000",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "https://www.curtisswright.com",
+    "congressional_district": "NJ-05",
+    "geographic_cluster": "North",
+    "data_source": [
+      "research_installations_primes"
+    ],
+    "confidence_score": "Medium",
+    "last_updated": "2026-02-27",
+    "slug": "curtiss-wright-corporation-nj-operations",
+    "contract_descriptions": []
+  }
+]

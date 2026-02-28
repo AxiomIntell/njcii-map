@@ -19,6 +19,20 @@
     var chunks = await Promise.all(dataPromises);
     var allFirms = [].concat.apply([], chunks);
     
+    // Compatibility shim: map Tier 1 v2.0 field names to what app.js expects
+    allFirms.forEach(function(f) {
+      // Map contract value fields
+      if (!f.total_dod_contract_value_3yr && f.total_dod_contract_value) {
+        f.total_dod_contract_value_3yr = f.total_dod_contract_value;
+      }
+      if (!f.total_federal_contract_value_3yr && f.total_federal_contract_value) {
+        f.total_federal_contract_value_3yr = f.total_federal_contract_value;
+      }
+      // Ensure lat/lng exist for map (some SBIR-only firms lack coordinates)
+      if (!f.latitude) f.latitude = null;
+      if (!f.longitude) f.longitude = null;
+    });
+
     // Store data globally for app.js to find
     window.__NJCII_FIRMS_DATA = allFirms;
     

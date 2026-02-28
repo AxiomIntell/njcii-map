@@ -40,50 +40,5 @@
       "SYSTEM ENGINEERING FOR EARLY START",
       "IGF::OT::IGF CONTRACT AWARD FOR THE AERIAL DRAGNET PROGRAM."
     ]
-  },
-  {
-    "firm_name": "L3Harris Technologies, Inc.",
-    "dba_name": "",
-    "address": "77 River Rd",
-    "city": "Clifton",
-    "county": "Passaic",
-    "zip": "07014",
-    "latitude": 40.826323746682,
-    "longitude": -74.132773481447,
-    "naics_primary": "334511",
-    "naics_description": "Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",
-    "sector": "Defense & Aerospace",
-    "subsector": "Radar & Sensor Systems",
-    "total_dod_contract_value_3yr": 2256335507.63,
-    "total_federal_contract_value_3yr": 2256335507.63,
-    "awarding_agencies": [
-      "Department of the Navy",
-      "Department of the Air Force",
-      "Defense Logistics Agency",
-      "U.S. Special Operations Command",
-      "Defense Contract Management Agency"
-    ],
-    "certifications": [],
-    "employee_count": "5000+",
-    "cage_code": "28527",
-    "duns_uei": "ENMFLGV87MS4",
-    "website": "https://www.l3harris.com",
-    "congressional_district": "NJ-08",
-    "geographic_cluster": "North",
-    "data_source": [
-      "USAspending.gov"
-    ],
-    "confidence_score": "High",
-    "last_updated": "2026-02-27",
-    "slug": "l3harris-technologies-inc",
-    "contract_descriptions": [
-      "SIRFC CLS YEAR 3",
-      "SIRFC REPAIRS AND PROGRAM MANAGEMENT",
-      "ALQ-211 LRU-3"
-    ]
-  },
-  {
-    "firm_name": "PLACEHOLDER_TRUNCATED",
-    "dba_name": ""
   }
 ]

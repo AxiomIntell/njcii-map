@@ -107,7 +107,7 @@
 
       <!-- Landing footer -->
       <div class="text-center text-gray-600 text-xs pb-6">
-        NJ-CII &bull; Prototype v1.0 &bull; Data through FY2025
+        NJ-CII &bull; Tier 2 v2.0 &bull; Data through FY2025
       </div>
     </div>
   </div>
@@ -130,6 +130,8 @@
           <nav class="hidden md:flex items-center gap-1" id="desktop-nav">
             <a href="#dashboard" class="nav-link" data-route="dashboard">Dashboard</a>
             <a href="#explorer" class="nav-link" data-route="explorer">Map Explorer</a>
+            <a href="#cross-agency" class="nav-link" data-route="cross-agency">Cross-Agency</a>
+            <a href="#gap-analysis" class="nav-link" data-route="gap-analysis">Gap Analysis</a>
             <div class="relative group">
               <button class="nav-link flex items-center gap-1" id="sectors-nav-btn">
                 Sectors
@@ -157,6 +159,8 @@
         <div id="mobile-menu" class="hidden md:hidden pb-3 border-t border-gray-700 mt-2 pt-3">
           <a href="#dashboard" class="mobile-nav-link" onclick="window.njciiApp.closeMobileMenu()">Dashboard</a>
           <a href="#explorer" class="mobile-nav-link" onclick="window.njciiApp.closeMobileMenu()">Map Explorer</a>
+          <a href="#cross-agency" class="mobile-nav-link" onclick="window.njciiApp.closeMobileMenu()">Cross-Agency Intel</a>
+          <a href="#gap-analysis" class="mobile-nav-link" onclick="window.njciiApp.closeMobileMenu()">Gap Analysis</a>
           <div class="mobile-nav-section-label">Sectors</div>
           <a href="#sector/defense-aerospace" class="mobile-nav-link pl-6" onclick="window.njciiApp.closeMobileMenu()">Defense &amp; Aerospace</a>
           <a href="#sector/life-sciences" class="mobile-nav-link pl-6" onclick="window.njciiApp.closeMobileMenu()">Life Sciences</a>
@@ -177,7 +181,7 @@
               <p class="text-gray-400 text-sm mt-1">New Jersey Critical Industries — Overview &amp; Analysis</p>
             </div>
             <div class="text-xs text-gray-500 bg-navy-dark/50 px-3 py-1.5 rounded border border-gray-700">
-              Data through FY2025 &bull; <span id="dash-firm-count-label">184</span> firms mapped
+              Data through FY2025 &bull; <span id="dash-firm-count-label">351</span> firms mapped
             </div>
           </div>
         </div>
@@ -191,6 +195,16 @@
             <h2 class="section-title">Key Metrics</h2>
           </div>
           <div id="stats-grid" class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <!-- filled by JS -->
+          </div>
+        </section>
+
+        <!-- Readiness Distribution -->
+        <section>
+          <div class="section-header">
+            <h2 class="section-title">Readiness Overview</h2>
+          </div>
+          <div id="readiness-overview" class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <!-- filled by JS -->
           </div>
         </section>
@@ -225,6 +239,7 @@
             <div class="lg:col-span-2 chart-card">
               <div class="chart-card-header">
                 <h2 class="section-title">Top 10 Firms by DOD Contract Value (3yr)</h2>
+                <div id="entity-wide-note" class="text-xs text-amber-500 mt-1"></div>
               </div>
               <div class="chart-card-body">
                 <canvas id="top-firms-chart" height="280"></canvas>
@@ -241,11 +256,21 @@
           </div>
         </section>
 
+        <!-- Trend Overview -->
+        <section>
+          <div class="section-header">
+            <h2 class="section-title">Firm Trends</h2>
+          </div>
+          <div id="trend-overview" class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-3">
+            <!-- filled by JS -->
+          </div>
+        </section>
+
         <!-- Dashboard Map -->
         <section>
           <div class="section-header flex items-center justify-between">
             <h2 class="section-title">Firm Locations</h2>
-            <a href="#explorer" class="text-sm text-blue-400 hover:text-blue-300 font-medium">Open Map Explorer →</a>
+            <a href="#explorer" class="text-sm text-blue-400 hover:text-blue-300 font-medium">Open Map Explorer &rarr;</a>
           </div>
           <div class="map-card">
             <div id="dashboard-map" class="dashboard-map-container"></div>
@@ -272,18 +297,21 @@
                 <thead>
                   <tr>
                     <th class="sortable" onclick="window.njciiApp.sortTable('firm_name')">
-                      Firm Name <span class="sort-icon" data-col="firm_name">↕</span>
+                      Firm Name <span class="sort-icon" data-col="firm_name">&updownarrow;</span>
                     </th>
                     <th class="sortable" onclick="window.njciiApp.sortTable('county')">
-                      County <span class="sort-icon" data-col="county">↕</span>
+                      County <span class="sort-icon" data-col="county">&updownarrow;</span>
                     </th>
                     <th class="sortable" onclick="window.njciiApp.sortTable('sector')">
-                      Sector <span class="sort-icon" data-col="sector">↕</span>
+                      Sector <span class="sort-icon" data-col="sector">&updownarrow;</span>
                     </th>
                     <th class="sortable text-right" onclick="window.njciiApp.sortTable('total_dod_contract_value_3yr')">
-                      DOD Value (3yr) <span class="sort-icon" data-col="total_dod_contract_value_3yr">↕</span>
+                      DOD Value (3yr) <span class="sort-icon" data-col="total_dod_contract_value_3yr">&updownarrow;</span>
                     </th>
-                    <th>Certifications</th>
+                    <th class="sortable text-center" onclick="window.njciiApp.sortTable('readiness_grade')">
+                      Readiness <span class="sort-icon" data-col="readiness_grade">&updownarrow;</span>
+                    </th>
+                    <th>Trend</th>
                   </tr>
                 </thead>
                 <tbody id="firms-table-body">
@@ -313,7 +341,7 @@
               </div>
             </div>
             <div class="mt-2 text-xs text-gray-400">
-              Showing <span id="explorer-count" class="text-white font-semibold">184</span> of <span id="explorer-total" class="text-white font-semibold">184</span> firms
+              Showing <span id="explorer-count" class="text-white font-semibold">351</span> of <span id="explorer-total" class="text-white font-semibold">351</span> firms
             </div>
             <button onclick="window.njciiApp.clearAllFilters()" class="mt-2 text-xs text-blue-400 hover:text-blue-300 underline">Clear All Filters</button>
           </div>
@@ -326,6 +354,30 @@
               <div class="space-y-1.5" id="sector-filters">
                 <!-- filled by JS -->
               </div>
+            </div>
+
+            <!-- Subsector -->
+            <div class="filter-group">
+              <div class="filter-group-label">Subsector</div>
+              <select id="subsector-filter" class="filter-select" onchange="window.njciiApp.applyFilters()">
+                <option value="">All Subsectors</option>
+              </select>
+            </div>
+
+            <!-- Readiness Grade -->
+            <div class="filter-group">
+              <div class="filter-group-label">Readiness Grade</div>
+              <div class="space-y-1.5" id="readiness-filters">
+                <!-- filled by JS -->
+              </div>
+            </div>
+
+            <!-- Trend -->
+            <div class="filter-group">
+              <div class="filter-group-label">Trend</div>
+              <select id="trend-filter" class="filter-select" onchange="window.njciiApp.applyFilters()">
+                <option value="">All Trends</option>
+              </select>
             </div>
 
             <!-- Geographic Cluster -->
@@ -376,6 +428,17 @@
               </div>
             </div>
 
+            <!-- Verification Status -->
+            <div class="filter-group">
+              <div class="filter-group-label">Verification Status</div>
+              <select id="verification-filter" class="filter-select" onchange="window.njciiApp.applyFilters()">
+                <option value="">All</option>
+                <option value="Verified">Verified</option>
+                <option value="Partially Verified">Partially Verified</option>
+                <option value="Unverified">Unverified</option>
+              </select>
+            </div>
+
             <!-- NAICS -->
             <div class="filter-group">
               <div class="filter-group-label">NAICS Code</div>
@@ -408,12 +471,38 @@
       </div>
     </main>
 
+    <!-- ==================== PAGE: CROSS-AGENCY ==================== -->
+    <main id="page-cross-agency" class="page-content hidden flex-1">
+      <div class="page-hero">
+        <div class="container mx-auto px-4 lg:px-6 py-6">
+          <h1 class="text-2xl font-bold text-white">Cross-Agency Intelligence</h1>
+          <p class="text-gray-400 text-sm mt-1">Agency relationships, multi-agency firms, and opportunity mapping</p>
+        </div>
+      </div>
+      <div class="container mx-auto px-4 lg:px-6 py-6 space-y-8">
+        <div id="cross-agency-content"><!-- filled by JS --></div>
+      </div>
+    </main>
+
+    <!-- ==================== PAGE: GAP ANALYSIS ==================== -->
+    <main id="page-gap-analysis" class="page-content hidden flex-1">
+      <div class="page-hero">
+        <div class="container mx-auto px-4 lg:px-6 py-6">
+          <h1 class="text-2xl font-bold text-white">Gap Analysis</h1>
+          <p class="text-gray-400 text-sm mt-1">Concentration risk, certification gaps, and readiness assessment</p>
+        </div>
+      </div>
+      <div class="container mx-auto px-4 lg:px-6 py-6 space-y-8">
+        <div id="gap-analysis-content"><!-- filled by JS --></div>
+      </div>
+    </main>
+
     <!-- ==================== PAGE: FIRM DETAIL ==================== -->
     <main id="page-firm" class="page-content hidden flex-1">
       <div class="container mx-auto px-4 lg:px-6 py-6">
         <!-- Back nav -->
         <div class="flex items-center gap-4 mb-6">
-          <a href="#explorer" class="back-link">← Map Explorer</a>
+          <a href="#explorer" class="back-link">&larr; Map Explorer</a>
           <span class="text-gray-600">/</span>
           <a href="#dashboard" class="back-link">Dashboard</a>
         </div>
@@ -444,9 +533,9 @@
 
           <section>
             <div class="about-card space-y-4">
-              <p class="about-para">The New Jersey Critical Industries Initiative (NJ-CII) is a nonprofit effort to map, analyze, and strengthen New Jersey's critical industrial base. Focused on four key sectors — Defense &amp; Aerospace, Life Sciences &amp; Pharmaceutical Manufacturing, Energy &amp; Critical Infrastructure, and Advanced Manufacturing &amp; Logistics — NJ-CII provides the data infrastructure that economic development, workforce, and national security stakeholders need to make informed decisions.</p>
-              <p class="about-para">The Industrial Base Map is NJ-CII's core analytical tool. It provides an interactive, searchable, filterable view of New Jersey's critical industries ecosystem — enabling stakeholders to identify firms by sector, geography, contract value, certifications, and NAICS code. This is not a static directory; it is a living intelligence platform designed to support economic development strategy, supply chain analysis, and workforce planning.</p>
-              <p class="about-para">This prototype represents the initial data collection effort, seeded primarily with publicly available federal procurement data from USAspending.gov. Future versions will incorporate additional data sources including SAM.gov entity registrations, state certification databases, SBIR/STTR award data, and direct firm engagement.</p>
+              <p class="about-para">The New Jersey Critical Industries Initiative (NJ-CII) is a nonprofit effort to map, analyze, and strengthen New Jersey's critical industrial base. Focused on four key sectors &mdash; Defense &amp; Aerospace, Life Sciences &amp; Pharmaceutical Manufacturing, Energy &amp; Critical Infrastructure, and Advanced Manufacturing &amp; Logistics &mdash; NJ-CII provides the data infrastructure that economic development, workforce, and national security stakeholders need to make informed decisions.</p>
+              <p class="about-para">The Industrial Base Map is NJ-CII's core analytical tool. It provides an interactive, searchable, filterable view of New Jersey's critical industries ecosystem &mdash; enabling stakeholders to identify firms by sector, geography, contract value, certifications, and NAICS code. This is not a static directory; it is a living intelligence platform designed to support economic development strategy, supply chain analysis, and workforce planning.</p>
+              <p class="about-para">This Tier 2 release adds readiness scoring, trend analysis, cross-agency intelligence, gap analysis, SBIR/STTR award tracking, and enhanced firm profiles with verification status. The dataset now includes 351 firms drawn from multiple federal data sources.</p>
             </div>
           </section>
 
@@ -460,7 +549,7 @@
                   </div>
                   <div>
                     <div class="data-source-name">USAspending.gov</div>
-                    <div class="data-source-desc">DOD contract obligations to NJ-based firms (FY2023–2025)</div>
+                    <div class="data-source-desc">DOD &amp; federal contract obligations to NJ-based firms (FY2021&ndash;2025)</div>
                   </div>
                 </div>
                 <div class="data-source-item">
@@ -478,7 +567,7 @@
                   </div>
                   <div>
                     <div class="data-source-name">SBIR.gov</div>
-                    <div class="data-source-desc">Small Business Innovation Research award data</div>
+                    <div class="data-source-desc">Small Business Innovation Research &amp; STTR award data</div>
                   </div>
                 </div>
                 <div class="data-source-item">
@@ -490,15 +579,6 @@
                     <div class="data-source-desc">Major prime contractor facilities and installations</div>
                   </div>
                 </div>
-                <div class="data-source-item">
-                  <div class="data-source-icon">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
-                  </div>
-                  <div>
-                    <div class="data-source-name">Geocoding</div>
-                    <div class="data-source-desc">US Census Bureau geocoder with city centroid fallback</div>
-                  </div>
-                </div>
               </div>
             </div>
           </section>
@@ -506,7 +586,7 @@
           <section>
             <h2 class="about-section-title">Disclaimer</h2>
             <div class="about-disclaimer">
-              This is a prototype. Data is derived from publicly available federal sources and may not be comprehensive or fully current. Contract values represent obligations, not disbursements. Firm sector classifications are approximations based on primary NAICS codes and contract types.
+              This is a prototype. Data is derived from publicly available federal sources and may not be comprehensive or fully current. Contract values represent obligations, not disbursements. Firms flagged as "Entity-Wide" have contract values that reflect nationwide totals, not NJ-specific activity. Firm sector classifications are approximations based on primary NAICS codes and contract types. Readiness scores are algorithmic assessments, not official ratings.
             </div>
           </section>
 
@@ -524,7 +604,7 @@
     <!-- Footer -->
     <footer class="app-footer">
       <div class="container mx-auto px-4 lg:px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-        <div class="text-xs text-gray-500">NJ-CII Industrial Base Map &bull; Prototype v1.0 &bull; Data through FY2025</div>
+        <div class="text-xs text-gray-500">NJ-CII Industrial Base Map &bull; Tier 2 v2.0 &bull; Data through FY2025</div>
         <div class="text-xs text-gray-600 flex items-center gap-4">
           <a href="#about" class="hover:text-gray-400">About</a>
           <a href="mailto:info@nj-cii.org" class="hover:text-gray-400">Contact</a>

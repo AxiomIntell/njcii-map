@@ -1,10 +1,26 @@
   function renderDashboard() {
     if (!state.firms.length) { setTimeout(renderDashboard, 100); return; }
-
     const firms = state.firms;
+    const njFirms = njSpecificFirms();
 
-    // Stats
-    const totalDOD = firms.reduce((s, f) => s + (f.total_dod_contract_value_3yr || 0), 0);
+    // Stats — use NJ-specific for DOD total to avoid entity-wide inflation
+    const totalDOD_nj = njFirms.reduce((s, f) => s + (f.total_dod_contract_value_3yr || 0), 0);
+    const sbirTotal = firms.reduce((s, f) => s + (f.sbir_sttr_total || 0), 0);
+    const multiAgency = firms.filter(f => f.is_multi_agency).length;
+
+    // Readiness grade distribution
+    const gradeDist = {};
+    firms.forEach(f => {
+      const g = f.readiness_grade || '—';
+      gradeDist[g] = (gradeDist[g] || 0) + 1;
+    });
+
+    // Trend distribution
+    const trendDist = {};
+    firms.forEach(f => {
+      const t = f.trend_direction || 'Unknown';
+      trendDist[t] = (trendDist[t] || 0) + 1;
+    });
 
     // Sector counts + values
     const sectorStats = {};
@@ -16,7 +32,7 @@
       const key = f.sector;
       if (!sectorStats[key]) sectorStats[key] = { count: 0, value: 0, cfg };
       sectorStats[key].count++;
-      sectorStats[key].value += f.total_dod_contract_value_3yr || 0;
+      if (!f.entity_wide_flag) sectorStats[key].value += f.total_dod_contract_value_3yr || 0;
       if (f.geographic_cluster) clusterStats[f.geographic_cluster] = (clusterStats[f.geographic_cluster] || 0) + 1;
       (f.certifications || []).forEach(c => { certStats[c] = (certStats[c] || 0) + 1; });
     });
@@ -34,16 +50,72 @@
           <div class="stat-card-label">Total Firms Mapped</div>
         </div>
         <div class="stat-card">
-          <div class="stat-card-value">${fmtMoney(totalDOD)}</div>
-          <div class="stat-card-label">Total DOD Contract Value (3yr)</div>
+          <div class="stat-card-value">${fmtMoney(totalDOD_nj)}</div>
+          <div class="stat-card-label">NJ-Specific DOD Value (3yr)</div>
+          <div class="text-xs text-amber-600 mt-1">Excludes 27 entity-wide firms</div>
         </div>
         <div class="stat-card">
-          <div class="stat-card-value">${Object.keys(sectorStats).length}</div>
-          <div class="stat-card-label">Sectors Covered</div>
+          <div class="stat-card-value">${fmtMoney(sbirTotal)}</div>
+          <div class="stat-card-label">SBIR/STTR Awards</div>
         </div>
         <div class="stat-card">
-          <div class="stat-card-value">${Object.values(certStats).reduce((a,b)=>a+b,0)}</div>
-          <div class="stat-card-label">Total Certifications</div>
+          <div class="stat-card-value">${multiAgency}</div>
+          <div class="stat-card-label">Multi-Agency Firms</div>
+        </div>
+      `;
+    }
+
+    // --- Readiness Overview ---
+    const readinessEl = document.getElementById('readiness-overview');
+    if (readinessEl) {
+      readinessEl.innerHTML = `
+        <div class="chart-card">
+          <div class="chart-card-header"><h2 class="section-title">Readiness Grade Distribution</h2></div>
+          <div class="chart-card-body">
+            <div class="space-y-3">
+              ${READINESS_GRADES.map(g => {
+                const count = gradeDist[g] || 0;
+                const pct = (count / firms.length * 100).toFixed(0);
+                const cfg = GRADE_COLORS[g];
+                return `<div class="flex items-center gap-3">
+                  ${readinessGradeBadge(g)}
+                  <div class="flex-1">
+                    <div class="flex items-center justify-between text-sm mb-1">
+                      <span class="font-medium text-gray-700">${cfg.label}</span>
+                      <span class="font-bold text-gray-900">${count} firms (${pct}%)</span>
+                    </div>
+                    <div class="cluster-progress-bar"><div class="cluster-progress-fill" style="width:${pct}%;background:${cfg.bg}"></div></div>
+                  </div>
+                </div>`;
+              }).join('')}
+            </div>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-header"><h2 class="section-title">Verification Status</h2></div>
+          <div class="chart-card-body">
+            <div class="space-y-4">
+              ${['Verified', 'Partially Verified', 'Unverified'].map(s => {
+                const count = firms.filter(f => f.verification_status === s).length;
+                const pct = (count / firms.length * 100).toFixed(0);
+                const colors = { 'Verified': '#059669', 'Partially Verified': '#D97706', 'Unverified': '#DC2626' };
+                return `<div>
+                  <div class="flex items-center justify-between text-sm mb-1">
+                    <span class="font-medium text-gray-700">${verificationBadge(s)}</span>
+                    <span class="font-bold text-gray-900">${count} (${pct}%)</span>
+                  </div>
+                  <div class="cluster-progress-bar"><div class="cluster-progress-fill" style="width:${pct}%;background:${colors[s]}"></div></div>
+                </div>`;
+              }).join('')}
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-100">
+              <div class="flex items-center justify-between text-sm">
+                <span class="text-gray-600">Entity-Wide Flagged</span>
+                <span class="font-bold text-amber-700">${firms.filter(f => f.entity_wide_flag).length} firms</span>
+              </div>
+              <p class="text-xs text-gray-400 mt-1">Contract values reflect nationwide, not NJ-specific activity</p>
+            </div>
+          </div>
         </div>
       `;
     }
@@ -60,7 +132,7 @@
               <span class="text-sm font-semibold text-gray-800">${st.cfg.short || name}</span>
               <span class="text-sm font-bold text-gray-900">${st.count}</span>
             </div>
-            <div class="text-xs text-gray-500 mb-1.5">${fmtMoney(st.value)} DOD value</div>
+            <div class="text-xs text-gray-500 mb-1.5">${fmtMoney(st.value)} NJ-specific DOD value</div>
             <div class="cluster-progress-bar">
               <div class="cluster-progress-fill" style="width:${(st.count/maxCount*100).toFixed(0)}%; background:${st.cfg.color}"></div>
             </div>
@@ -74,7 +146,6 @@
     const clusterCards = document.getElementById('cluster-cards');
     if (clusterCards) {
       const total = firms.length;
-      const colors = { North: '#166534', Central: '#854d0e', South: '#1e40af' };
       const fills = { North: '#4ade80', Central: '#fbbf24', South: '#60a5fa' };
       clusterCards.innerHTML = Object.entries(clusterStats).map(([name, count]) => `
         <div class="sector-bar-card">
@@ -109,6 +180,20 @@
       }
     }
 
+    // --- Trend Overview ---
+    const trendEl = document.getElementById('trend-overview');
+    if (trendEl) {
+      const trendOrder = ['Growing', 'Active', 'Stable', 'New Entry', 'Historical', 'Declining', 'Unknown'];
+      trendEl.innerHTML = trendOrder.filter(t => trendDist[t]).map(t => {
+        const cfg = TREND_CONFIG[t];
+        const count = trendDist[t] || 0;
+        return `<div class="flex flex-col items-center p-3 rounded-lg border" style="background:${cfg.bg};border-color:${cfg.color}20">
+          <span class="text-2xl font-bold" style="color:${cfg.color}">${count}</span>
+          <span class="text-xs mt-1 flex items-center gap-1" style="color:${cfg.color}">${cfg.icon} ${t}</span>
+        </div>`;
+      }).join('');
+    }
+
     // --- Charts ---
     renderDashboardCharts(firms, sectorStats);
 
@@ -116,9 +201,7 @@
     if (!dashboardRendered) {
       setTimeout(() => {
         renderDashboardMap(firms);
-        if (state.dashboardMap) {
-          state.dashboardMap.invalidateSize();
-        }
+        if (state.dashboardMap) state.dashboardMap.invalidateSize();
       }, 250);
       dashboardRendered = true;
     } else if (state.dashboardMap) {
@@ -130,11 +213,15 @@
   }
 
   function renderDashboardCharts(firms, sectorStats) {
-    // Top 10 firms bar chart
-    const top10 = [...firms]
+    // Top 10 firms bar chart — exclude entity-wide
+    const njFirms = firms.filter(f => !f.entity_wide_flag);
+    const top10 = [...njFirms]
       .filter(f => f.total_dod_contract_value_3yr > 0)
       .sort((a,b) => b.total_dod_contract_value_3yr - a.total_dod_contract_value_3yr)
       .slice(0, 10);
+
+    const noteEl = document.getElementById('entity-wide-note');
+    if (noteEl) noteEl.textContent = '⚠ Excludes 27 entity-wide firms (nationwide values)';
 
     const barCtx = document.getElementById('top-firms-chart');
     if (barCtx) {
@@ -158,25 +245,11 @@
           indexAxis: 'y',
           plugins: {
             legend: { display: false },
-            tooltip: {
-              callbacks: {
-                label: (ctx) => ' ' + fmtMoney(ctx.raw)
-              }
-            }
+            tooltip: { callbacks: { label: (ctx) => ' ' + fmtMoney(ctx.raw) } }
           },
           scales: {
-            x: {
-              ticks: {
-                callback: (v) => fmtMoney(v),
-                font: { size: 11 },
-                color: '#64748b'
-              },
-              grid: { color: '#f1f5f9' }
-            },
-            y: {
-              ticks: { font: { size: 11 }, color: '#374151' },
-              grid: { display: false }
-            }
+            x: { ticks: { callback: (v) => fmtMoney(v), font: { size: 11 }, color: '#64748b' }, grid: { color: '#f1f5f9' } },
+            y: { ticks: { font: { size: 11 }, color: '#374151' }, grid: { display: false } }
           }
         }
       });
@@ -202,15 +275,8 @@
           responsive: true,
           maintainAspectRatio: true,
           plugins: {
-            legend: {
-              position: 'bottom',
-              labels: { font: { size: 11 }, color: '#374151', padding: 12, boxWidth: 12 }
-            },
-            tooltip: {
-              callbacks: {
-                label: (ctx) => ` ${ctx.label}: ${ctx.raw} firms`
-              }
-            }
+            legend: { position: 'bottom', labels: { font: { size: 11 }, color: '#374151', padding: 12, boxWidth: 12 } },
+            tooltip: { callbacks: { label: (ctx) => ` ${ctx.label}: ${ctx.raw} firms` } }
           },
           cutout: '55%'
         }

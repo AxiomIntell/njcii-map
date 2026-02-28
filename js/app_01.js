@@ -1,5 +1,5 @@
 /**
- * NJ-CII Industrial Base Map — Application JS
+ * NJ-CII Industrial Base Map — Application JS (Tier 2)
  * Single-page app with hash-based routing, in-memory state only
  */
 
@@ -25,19 +25,20 @@
       district: '',
       valueMin: 0,
       certs: [],
-      naics: ''
+      naics: '',
+      subsector: '',
+      trend: '',
+      readinessGrades: [],
+      verification: ''
     },
-    // Map instances
     dashboardMap: null,
     dashboardMarkerCluster: null,
     explorerMap: null,
     explorerMarkerCluster: null,
     firmDetailMap: null,
-    // Chart instances
     topFirmsChart: null,
     sectorPieChart: null,
     sectorCharts: {},
-    // Sidebar state
     sidebarOpen: false
   };
 
@@ -66,6 +67,26 @@
   };
 
   const CERTS_LIST = ['SDVOSB', 'WOSB', 'HUBZone', '8(a)', 'SDB', 'DVOB', 'SBE', 'Small Business'];
+  const READINESS_GRADES = ['A', 'B', 'C', 'D', 'F'];
+
+  const GRADE_COLORS = {
+    'A': { bg: '#059669', text: '#ffffff', label: 'Excellent' },
+    'B': { bg: '#2563EB', text: '#ffffff', label: 'Good' },
+    'C': { bg: '#D97706', text: '#ffffff', label: 'Moderate' },
+    'D': { bg: '#DC2626', text: '#ffffff', label: 'Below Average' },
+    'F': { bg: '#7f1d1d', text: '#ffffff', label: 'Needs Improvement' }
+  };
+
+  const TREND_CONFIG = {
+    'Growing': { icon: '↑', color: '#059669', bg: '#ECFDF5' },
+    'Active': { icon: '●', color: '#2563EB', bg: '#EFF6FF' },
+    'Stable': { icon: '→', color: '#6B7280', bg: '#F9FAFB' },
+    'New Entry': { icon: '★', color: '#7C3AED', bg: '#F5F3FF' },
+    'Historical': { icon: '◷', color: '#D97706', bg: '#FFFBEB' },
+    'Declining': { icon: '↓', color: '#DC2626', bg: '#FEF2F2' },
+    'Inactive': { icon: '○', color: '#9CA3AF', bg: '#F9FAFB' },
+    'Unknown': { icon: '?', color: '#9CA3AF', bg: '#F9FAFB' }
+  };
 
   const NJ_CENTER = [40.0583, -74.4057];
   const NJ_ZOOM = 8;
@@ -74,7 +95,6 @@
   // INIT
   // ============================================================
   async function init() {
-    // Enter key on access code input
     const input = document.getElementById('access-code-input');
     if (input) {
       input.addEventListener('keydown', (e) => {
@@ -82,19 +102,28 @@
       });
     }
 
-    // Hash change routing
     window.addEventListener('hashchange', () => route());
 
-    // Load data
     try {
       const data = window.__NJCII_FIRMS_DATA || await fetch('./firms_seed_data.json').then(r => r.json());
       state.firms = Array.isArray(data) ? data : (data.firms || []);
+      // Normalize readiness data
+      state.firms.forEach(f => {
+        if (f.readiness_score && typeof f.readiness_score === 'object') {
+          f.readiness_grade = f.readiness_score.grade || '—';
+          f.readiness_total = f.readiness_score.total || 0;
+          f.readiness_components = f.readiness_score.components || {};
+        } else {
+          f.readiness_grade = '—';
+          f.readiness_total = 0;
+          f.readiness_components = {};
+        }
+      });
       state.filteredFirms = [...state.firms];
     } catch (e) {
       console.error('Failed to load firms data:', e);
     }
 
-    // Initial route
     route();
   }
 
@@ -158,18 +187,13 @@
   function route() {
     const hash = window.location.hash || '#landing';
 
-    // If not authenticated, force landing
     if (!window.__njciiAuth && hash !== '#landing' && hash !== '') {
       window.location.hash = '#landing';
       return;
     }
 
-    // Hide all pages
-    ['page-dashboard', 'page-explorer', 'page-firm', 'page-sector', 'page-about'].forEach(hidePage);
-
-    // Update active nav
+    ['page-dashboard', 'page-explorer', 'page-firm', 'page-sector', 'page-about', 'page-cross-agency', 'page-gap-analysis'].forEach(hidePage);
     document.querySelectorAll('.nav-link[data-route]').forEach(el => el.classList.remove('active'));
-
     state.currentRoute = hash;
 
     if (hash === '' || hash === '#landing' || hash === '#') {
@@ -187,6 +211,14 @@
       setActiveNav('explorer');
       showPage('page-explorer');
       renderExplorer();
+    } else if (hash === '#cross-agency') {
+      setActiveNav('cross-agency');
+      showPage('page-cross-agency');
+      renderCrossAgency();
+    } else if (hash === '#gap-analysis') {
+      setActiveNav('gap-analysis');
+      showPage('page-gap-analysis');
+      renderGapAnalysis();
     } else if (hash.startsWith('#firm/')) {
       const slug = hash.replace('#firm/', '');
       showPage('page-firm');
@@ -226,9 +258,7 @@
   }
 
   function getSectorConfig(sectorName) {
-    // Exact match first
     if (SECTOR_CONFIG[sectorName]) return SECTOR_CONFIG[sectorName];
-    // Partial match
     for (const [key, cfg] of Object.entries(SECTOR_CONFIG)) {
       if (sectorName && (sectorName.includes('Defense') || sectorName.includes('Aerospace')) && key.includes('Defense')) return cfg;
       if (sectorName && (sectorName.includes('Life') || sectorName.includes('Pharma')) && key.includes('Life')) return cfg;
@@ -244,17 +274,38 @@
   }
 
   function clusterBadgeHTML(cluster) {
-    const map = {
-      'North': 'cluster-badge-north',
-      'Central': 'cluster-badge-central',
-      'South': 'cluster-badge-south'
-    };
-    return `<span class="cluster-badge ${map[cluster] || ''}">${cluster}</span>`;
+    const map = { 'North': 'cluster-badge-north', 'Central': 'cluster-badge-central', 'South': 'cluster-badge-south' };
+    return `<span class="cluster-badge ${map[cluster] || ''}">${cluster || '—'}</span>`;
   }
 
   function certBadgesHTML(certs) {
     if (!certs || certs.length === 0) return '<span class="text-gray-400 text-xs">—</span>';
     return certs.map(c => `<span class="cert-badge">${c}</span>`).join(' ');
+  }
+
+  function readinessGradeBadge(grade, size) {
+    const cfg = GRADE_COLORS[grade] || { bg: '#6B7280', text: '#fff', label: 'Unknown' };
+    const sz = size === 'lg' ? 'w-10 h-10 text-lg' : size === 'sm' ? 'w-6 h-6 text-xs' : 'w-8 h-8 text-sm';
+    return `<span class="inline-flex items-center justify-center rounded-md font-bold ${sz}" style="background:${cfg.bg};color:${cfg.text}">${grade}</span>`;
+  }
+
+  function trendBadgeHTML(trend) {
+    const cfg = TREND_CONFIG[trend] || TREND_CONFIG['Unknown'];
+    return `<span class="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded-full" style="background:${cfg.bg};color:${cfg.color}">${cfg.icon} ${trend}</span>`;
+  }
+
+  function entityWideBadge() {
+    return `<span class="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-300" title="Contract values reflect entity-wide (nationwide) totals, not NJ-specific">⚠ Entity-Wide</span>`;
+  }
+
+  function verificationBadge(status) {
+    const map = {
+      'Verified': { bg: '#ECFDF5', color: '#059669', icon: '✓' },
+      'Partially Verified': { bg: '#FFFBEB', color: '#D97706', icon: '◐' },
+      'Unverified': { bg: '#FEF2F2', color: '#DC2626', icon: '○' }
+    };
+    const cfg = map[status] || map['Unverified'];
+    return `<span class="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded-full" style="background:${cfg.bg};color:${cfg.color}">${cfg.icon} ${status}</span>`;
   }
 
   function firmSlug(firm) {
@@ -263,6 +314,16 @@
 
   function getFirmBySlug(slug) {
     return state.firms.find(f => firmSlug(f) === slug);
+  }
+
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // Exclude entity-wide firms from NJ aggregates
+  function njSpecificFirms() {
+    return state.firms.filter(f => !f.entity_wide_flag);
   }
 
   // ============================================================

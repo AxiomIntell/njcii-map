@@ -1,1 +1,1641 @@
-[{"firm_name": "Dmc Management Services, LLC", "dba_name": "", "address": "37 Kanouse Lane", "city": "Montville", "county": "Morris", "zip": "07045", "latitude": 40.911408517874, "longitude": -74.372368379031, "naics_primary": "531110", "naics_description": "Lessors of Residential Buildings and Dwellings", "sector": "Defense & Aerospace", "subsector": "Defense Systems & Services", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-11", "geographic_cluster": "North", "slug": "dmc-management-services-llc", "contract_descriptions": ["LONG AND SHORT TERM LODGING SERVICES FOR CAPITAL REGION  IGF::OT::IGF", "8(a) certified management services firm in Mercer County NJ. $17.2M in total federal contract obligations across 79 awards."], "total_dod_contract_value": 43525316.99, "total_federal_contract_value": 43525316.99, "total_federal_value_by_agency": {}, "total_federal_value_by_year": {}, "federal_agency_count": 0, "is_multi_agency": false, "awarding_agencies": [], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 43525316.99, "grant_value_total": 0, "nj_place_of_performance_value": 43525316.99, "entity_wide_flag": false, "source_urls": [], "verification_status": "Unverified", "verification_notes": "Record from original dataset but could not be matched to USAspending expanded pull. Manual verification needed.", "data_source": ["USAspending.gov", "SBIR.gov"], "confidence_score": "High", "trend_direction": "Unknown", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 13, "grade": "F", "components": {"federal_engagement": 0, "revenue_diversity": 4, "growth_signal": 0, "certifications": 0, "data_quality": 9}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Envision Innovative Solutions, Inc.", "dba_name": "", "address": "2310 Hwy 34 Ste 1b", "city": "Manasquan", "county": "Monmouth", "zip": "08736", "latitude": 40.133055735763, "longitude": -74.088608738981, "naics_primary": "541715", "naics_description": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)", "sector": "Defense & Aerospace", "subsector": "Defense R&D & Applied Research", "certifications": [], "employee_count": "", "cage_code": "4JB87", "duns_uei": "VNMLXFMQD976", "website": "", "congressional_district": "NJ-04", "geographic_cluster": "Central", "slug": "envision-innovative-solutions-inc", "contract_descriptions": ["SETA SERVICES FOR PEO IEW&S", "PROVIDE SPECIFIC PERFORMANCE REQUIREMENTS, PERFORMANCE STANDARDS, METRICS, ASSESSMENT MEASURES, AND SCHEDULE FOR THE EXECUTION OF ECS IN SUPPORT OF MARINE AIR GROUND TASK FORCE (MAFTF) TACTICAL WARFAR", "NEW TO"], "total_dod_contract_value": 339352115.7, "total_federal_contract_value": 339352115.7, "total_federal_value_by_agency": {"DOD": 339352115.7}, "total_federal_value_by_year": {"FY2021": 18901727.98, "FY2022": 38036311.7, "FY2023": 97662770.83, "FY2024": 95229035.28, "FY2025": 89522269.91}, "federal_agency_count": 1, "is_multi_agency": false, "awarding_agencies": ["DOD"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 339352115.7, "grant_value_total": 0, "nj_place_of_performance_value": 339352115.7, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/VNMLXFMQD976/latest", "https://sam.gov/entity/VNMLXFMQD976"], "verification_status": "Verified", "verification_notes": "Contract data from USAspending.gov API pull (Feb 2026). UEI: VNMLXFMQD976.", "data_source": ["USAspending.gov", "SBIR.gov"], "confidence_score": "High", "trend_direction": "Growing", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 56, "grade": "B", "components": {"federal_engagement": 15, "revenue_diversity": 8, "growth_signal": 15, "certifications": 0, "data_quality": 18}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Data Intelligence LLC", "dba_name": "", "address": "2 Eves Dr Ste 250", "city": "Marlton", "county": "Burlington", "zip": "08053", "latitude": 39.8912, "longitude": -74.9218, "naics_primary": "541330", "naics_description": "Engineering Services", "sector": "Defense & Aerospace", "subsector": "Defense Engineering Services", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-01", "geographic_cluster": "South", "slug": "data-intelligence-llc", "contract_descriptions": ["CYBERSECURITY & RISK MANAGEMENT FRAMEWORK (RMF) VALIDATION AND INFORMATION SYSTEMS SECURITY SERVICES SUPPORT", "SERVICES IAW SOW - BIZ APPS", "CORPORATE A&A VALIDATION SUPPORT & SUSTAINMENT SERVICES - THIS ACQUISITION WILL PROVIDE VALIDATION AND SUSTAINMENT SUPPORT TO NSWCDD AND NSWCDD DAM NECK."], "total_dod_contract_value": 29018433.52, "total_federal_contract_value": 29018433.52, "total_federal_value_by_agency": {"DOD": 29018433.52}, "total_federal_value_by_year": {"FY2021": 2823638.0, "FY2022": 7960517.88, "FY2023": 7960517.88, "FY2024": 5136879.88, "FY2025": 5136879.88}, "federal_agency_count": 1, "is_multi_agency": false, "awarding_agencies": ["DOD"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 29018433.52, "grant_value_total": 0, "nj_place_of_performance_value": 29018433.52, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/KD9GAGCDPDN1/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Stable", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 45, "grade": "C", "components": {"federal_engagement": 15, "revenue_diversity": 8, "growth_signal": 10, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Breeze-eastern LLC", "dba_name": "", "address": "35 Melanie Ln", "city": "Whippany", "county": "Morris", "zip": "07981", "latitude": 40.817739857847, "longitude": -74.392524826651, "naics_primary": "336413", "naics_description": "Other Aircraft Parts and Auxiliary Equipment Manufacturing", "sector": "Defense & Aerospace", "subsector": "Aerospace & Aircraft Manufacturing", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-11", "geographic_cluster": "North", "slug": "breeze-eastern-llc", "contract_descriptions": ["OVERHAUL OF THE WINCH, AIRCRAFT MOUNTED FOR THE UH-60 BLACKHAWK (BE)", "NOUN: WINCH, AIRCRAFT MOUN NSN:  1680-01-505-3913 PN:   BL-29900-30-1 (S7020-02801-109)", "OVERHAUL OF THE WINCH, AIRCRAFT MOUNTED FOR THE UH-60 BLACKHAWK (BE)."], "total_dod_contract_value": 97338077.58, "total_federal_contract_value": 101266717.58, "total_federal_value_by_agency": {"DOD": 97338077.58, "DHS": 3928640.0}, "total_federal_value_by_year": {"FY2021": 5255155.6, "FY2022": 28333347.2, "FY2023": 24312842.8, "FY2024": 21070140.11, "FY2025": 22295231.87}, "federal_agency_count": 2, "is_multi_agency": true, "awarding_agencies": ["DOD", "DHS"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 101266717.58, "grant_value_total": 0, "nj_place_of_performance_value": 101266717.58, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/U1NDNFGSBWD8/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Growing", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 54, "grade": "C", "components": {"federal_engagement": 15, "revenue_diversity": 12, "growth_signal": 15, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Johnson Technology Systems Inc.", "dba_name": "", "address": "100 Enterprise Dr Ste 301", "city": "Rockaway", "county": "Morris", "zip": "07866", "latitude": 40.9051, "longitude": -74.5177, "naics_primary": "541511", "naics_description": "Custom Computer Programming Services", "sector": "Defense & Aerospace", "subsector": "Defense IT & Cyber", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-11", "geographic_cluster": "North", "slug": "johnson-technology-systems-inc", "contract_descriptions": ["DEVCOM AC PROJECT SUPPORT TASK ORDER", "KMO SUPPORT SERVICES", "CLOUD MIGRATION & HOSTING"], "total_dod_contract_value": 207386457.84, "total_federal_contract_value": 237794653.0, "total_federal_value_by_agency": {"DOD": 207386457.84, "GSA": 30408195.16}, "total_federal_value_by_year": {"FY2021": 53740671.67, "FY2022": 49534107.36, "FY2023": 45840854.47, "FY2024": 45840854.47, "FY2025": 42838165.03}, "federal_agency_count": 2, "is_multi_agency": true, "awarding_agencies": ["DOD", "GSA"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 237794653.0, "grant_value_total": 0, "nj_place_of_performance_value": 237794653.0, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/EF5CK4DHMCX7/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Stable", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 49, "grade": "C", "components": {"federal_engagement": 15, "revenue_diversity": 12, "growth_signal": 10, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Abhzeen Icc JV Inc.", "dba_name": "", "address": "34 School Road East", "city": "Marlboro", "county": "Monmouth", "zip": "07746", "latitude": 40.310478373892, "longitude": -74.244323111596, "naics_primary": "236220", "naics_description": "Commercial and Institutional Building Construction", "sector": "Defense & Aerospace", "subsector": "Military Construction & Infrastructure", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-04", "geographic_cluster": "Central", "slug": "abhzeen-icc-jv-inc", "contract_descriptions": ["REPAIR OF CENTRAL PLANT BLDG. 604, WEST POINT, NY 10996."], "total_dod_contract_value": 39906000.0, "total_federal_contract_value": 39906000.0, "total_federal_value_by_agency": {}, "total_federal_value_by_year": {}, "federal_agency_count": 0, "is_multi_agency": false, "awarding_agencies": [], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 39906000.0, "grant_value_total": 0, "nj_place_of_performance_value": 39906000.0, "entity_wide_flag": false, "source_urls": [], "verification_status": "Unverified", "verification_notes": "Record from original dataset but could not be matched to USAspending expanded pull. Manual verification needed.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Unknown", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 13, "grade": "F", "components": {"federal_engagement": 0, "revenue_diversity": 4, "growth_signal": 0, "certifications": 0, "data_quality": 9}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Triman Industries Inc.", "dba_name": "", "address": "1500 Mt. Kemble Ave", "city": "Morristown", "county": "Morris", "zip": "07960", "latitude": 40.74532997444, "longitude": -74.53266790132, "naics_primary": "423120", "naics_description": "Motor Vehicle Supplies and New Parts Merchant Wholesalers", "sector": "Defense & Aerospace", "subsector": "Defense Systems & Services", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-11", "geographic_cluster": "North", "slug": "triman-industries-inc", "contract_descriptions": ["COMMODITY NAME: ACTUATOR,ELECTRO-ME | NSN:3010-01-373-5945 | 171EA PLUS 100% OPTION, NOT EXERCISED", "SERVER,RES-XR4-1U", "8511366296!TRANS,RECT ASSEMBLY"], "total_dod_contract_value": 96670516.56, "total_federal_contract_value": 96670516.56, "total_federal_value_by_agency": {"DOD": 96670516.56}, "total_federal_value_by_year": {"FY2021": 7387752.0, "FY2022": 4630578.75, "FY2023": 7048878.75, "FY2024": 21051021.49, "FY2025": 56552285.57}, "federal_agency_count": 1, "is_multi_agency": false, "awarding_agencies": ["DOD"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 96670516.56, "grant_value_total": 0, "nj_place_of_performance_value": 96670516.56, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/VWX3JEES4FF7/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Growing", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 50, "grade": "C", "components": {"federal_engagement": 15, "revenue_diversity": 8, "growth_signal": 15, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Ranco Construction Inc.", "dba_name": "", "address": "2 Coleman Ct", "city": "Southampton", "county": "Burlington", "zip": "08088", "latitude": 39.9148, "longitude": -74.7146, "naics_primary": "236220", "naics_description": "Commercial and Institutional Building Construction", "sector": "Defense & Aerospace", "subsector": "Military Construction & Infrastructure", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-03", "geographic_cluster": "South", "slug": "ranco-construction-inc", "contract_descriptions": ["CONSTRUCTION OF THE 177TH FW INSTALLATION ENTRY CONTROL FACILITY.", "COMMERCIAL VEHICLE SECURITY ENTRY CONTROL POINT AT LAKEHURST NAVAL STATION WHICH IS PART OF JB- MDL, NJ. FOR MILITARY ENTRY CONTROL ACCESS ROADS, DENIAL ACCESS, BARRIERS AND FACILITIES, BOTH VISITOR C", "CONSTRUCTION OF A FUEL CELL AND CORROSION CONTROL FACILITY WITH THE INSTALLATION OF EXTERIOR WINDOWS (OPTION 4), A STANDING SEAM METAL ROOF (OPTION 5),AND ASPHALT OVERLAY (OPTION 8)AT THE 177FW NJ ANG"], "total_dod_contract_value": 175801591.28, "total_federal_contract_value": 193604227.04, "total_federal_value_by_agency": {"DOD": 175801591.28, "DOT": 17802635.76}, "total_federal_value_by_year": {"FY2021": 32300519.94, "FY2022": 51503605.62, "FY2023": 46427982.38, "FY2024": 33155124.1, "FY2025": 30216995.0}, "federal_agency_count": 2, "is_multi_agency": true, "awarding_agencies": ["DOD", "DOT"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 193604227.04, "grant_value_total": 0, "nj_place_of_performance_value": 193604227.04, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/ES62PR9H1CK4/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Stable", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 49, "grade": "C", "components": {"federal_engagement": 15, "revenue_diversity": 12, "growth_signal": 10, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Technology Program Services Associates, Inc.", "dba_name": "", "address": "2494 Ridgeway Blvd", "city": "Whiting", "county": "Ocean", "zip": "08759", "latitude": 40.01811344605, "longitude": -74.307725297178, "naics_primary": "541330", "naics_description": "Engineering Services", "sector": "Defense & Aerospace", "subsector": "Defense Engineering Services", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-03", "geographic_cluster": "Central", "slug": "technology-program-services-associates-inc", "contract_descriptions": ["IGF::OT::IGF", "TO N00178-05-D-4631-4Y01", "8(a) certified professional services firm in Ocean County NJ. $24.5M in total federal contract obligations across 145 awards."], "total_dod_contract_value": 203696780.03, "total_federal_contract_value": 203696780.03, "total_federal_value_by_agency": {"DOD": 203696780.03}, "total_federal_value_by_year": {"FY2021": 35849282.28, "FY2022": 35849282.28, "FY2023": 35849282.28, "FY2024": 54021991.14, "FY2025": 42126942.05}, "federal_agency_count": 1, "is_multi_agency": false, "awarding_agencies": ["DOD"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 203696780.03, "grant_value_total": 0, "nj_place_of_performance_value": 203696780.03, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/VC8JN5SEA3D1/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov", "SBIR.gov"], "confidence_score": "High", "trend_direction": "Growing", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 50, "grade": "C", "components": {"federal_engagement": 15, "revenue_diversity": 8, "growth_signal": 15, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Sussex Rural Electric Cooperative", "dba_name": "", "address": "64 Route 639", "city": "Sussex", "county": "Sussex", "zip": "07461", "latitude": 41.201311898163, "longitude": -74.626006593215, "naics_primary": "238210", "naics_description": "Electrical Contractors and Other Wiring Installation Contractors", "sector": "Defense & Aerospace", "subsector": "Defense Systems & Services", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-05", "geographic_cluster": "North", "slug": "sussex-rural-electric-cooperative", "contract_descriptions": ["ELECTRICAL REPAIRS AND INSTALLATION"], "total_dod_contract_value": 177706047.15, "total_federal_contract_value": 177706047.15, "total_federal_value_by_agency": {"DOD": 177706047.15}, "total_federal_value_by_year": {"FY2021": 35541209.43, "FY2022": 35541209.43, "FY2023": 35541209.43, "FY2024": 35541209.43, "FY2025": 35541209.43}, "federal_agency_count": 1, "is_multi_agency": false, "awarding_agencies": ["DOD"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 177706047.15, "grant_value_total": 0, "nj_place_of_performance_value": 177706047.15, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/NKJVH5YG6QC6/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Stable", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 45, "grade": "C", "components": {"federal_engagement": 15, "revenue_diversity": 8, "growth_signal": 10, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Aspen Consulting Group Inc.", "dba_name": "", "address": "2405 Shore Haven Ct", "city": "Point Pleasant Boro", "county": "Ocean", "zip": "08742", "latitude": 40.065992226824, "longitude": -74.081734021178, "naics_primary": "541715", "naics_description": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)", "sector": "Defense & Aerospace", "subsector": "Defense R&D & Applied Research", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-04", "geographic_cluster": "Central", "slug": "aspen-consulting-group-inc", "contract_descriptions": ["BROAD AGENCY ANNOUNCEMENT FOR SYNCHRONIZATION TECHNOLOGY AND ARCHITECTURE MODERNIZATION INVESTMENTS FOR NOBLE ADVANCEMENT", "TEANCITY PROPOSAL WAS SUBMITTED IN RESPONSE TO BAA-W56KGU19R9999"], "total_dod_contract_value": 135357631.71, "total_federal_contract_value": 135357631.71, "total_federal_value_by_agency": {"DOD": 135357631.71}, "total_federal_value_by_year": {"FY2021": 15521612.59, "FY2022": 15521612.59, "FY2023": 30213009.82, "FY2024": 36102952.29, "FY2025": 37998444.42}, "federal_agency_count": 1, "is_multi_agency": false, "awarding_agencies": ["DOD"], "sbir_sttr_awards": [{"agency": "Department of Defense - Navy", "program": "SBIR", "amount": 239810.0, "phase": "Phase I", "year": 2024, "topic": "N232-108", "award_title": "Autonomous, Low-Cost Emitter for Electronic Warfare Training", "proposal_award_date": "2023-12-04", "award_url": "https://www.sbir.gov/awards?firm=ASPEN+CONSULTING+GROUP+INC&year=2024"}, {"agency": "Department of Defense - Army", "program": "STTR", "amount": 1099548.0, "phase": "Phase II", "year": 2021, "topic": "A19C-T005", "award_title": "Adaptable Tactical Communications", "proposal_award_date": "2021-01-25", "award_url": "https://www.sbir.gov/awards?firm=ASPEN+CONSULTING+GROUP+INC&year=2021"}], "sbir_sttr_total": 1339358.0, "sbir_sttr_award_count": 2, "total_economic_footprint": 136696989.71, "grant_value_total": 0, "nj_place_of_performance_value": 135357631.71, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/LMV1FKPF2PS6/latest", "https://www.sbir.gov/awards?firm=ASPEN+CONSULTING+GROUP+INC&year=2024", "https://www.sbir.gov/awards?firm=ASPEN+CONSULTING+GROUP+INC&year=2021"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended. SBIR/STTR data from SBIR.gov bulk download (Feb 2026, 2 awards).", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Growing", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 72, "grade": "A", "components": {"federal_engagement": 30, "revenue_diversity": 12, "growth_signal": 15, "certifications": 3, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "S & E Services Inc.", "dba_name": "", "address": "1163 Inman Ave", "city": "Edison", "county": "Middlesex", "zip": "08817", "latitude": 40.596626977488, "longitude": -74.368778981246, "naics_primary": "236220", "naics_description": "Commercial and Institutional Building Construction", "sector": "Defense & Aerospace", "subsector": "Military Construction & Infrastructure", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-06", "geographic_cluster": "Central", "slug": "s-e-services-inc", "contract_descriptions": ["RENO & MODERNIZATION OF PHASE 2", "CAMP BUCKNER PHASE 3 U.S. MILITARY ACADEMY WEST POINT NY"], "total_dod_contract_value": 25866761.98, "total_federal_contract_value": 25866761.98, "total_federal_value_by_agency": {"DOD": 25866761.98}, "total_federal_value_by_year": {"FY2021": 12933380.99, "FY2022": 12933380.99, "FY2023": 0.0, "FY2024": 0.0, "FY2025": 0.0}, "federal_agency_count": 1, "is_multi_agency": false, "awarding_agencies": ["DOD"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 25866761.98, "grant_value_total": 0, "nj_place_of_performance_value": 25866761.98, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/GVXKNAMRZPK6/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Stable", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 34, "grade": "D", "components": {"federal_engagement": 4, "revenue_diversity": 8, "growth_signal": 10, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Wu & Associates Inc.", "dba_name": "", "address": "100 Gaither Dr Suite C", "city": "Mount Laurel", "county": "Burlington", "zip": "08054", "latitude": 39.936897777656, "longitude": -74.955006404451, "naics_primary": "236220", "naics_description": "Commercial and Institutional Building Construction", "sector": "Defense & Aerospace", "subsector": "Military Construction & Infrastructure", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-01", "geographic_cluster": "South", "slug": "wu-associates-inc", "contract_descriptions": ["ONE-PHASE DESIGN-BUILD TO REPAIR A 1950S HANGAR AT NELLIS AFB FOR AN F-35 SQUADRON. INCLUDES HANGAR, ADMIN UPGRADES, AND 4,062 GSF ADDITION. 100% SMALL BUSINESS SET-ASIDE. POP: 720 DAYS. MAGNITUDE: $2", "INSTALL FOD ODN INFRASTRUCTURE PROJECT"], "total_dod_contract_value": 33593600.0, "total_federal_contract_value": 33593600.0, "total_federal_value_by_agency": {}, "total_federal_value_by_year": {}, "federal_agency_count": 0, "is_multi_agency": false, "awarding_agencies": [], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 33593600.0, "grant_value_total": 0, "nj_place_of_performance_value": 33593600.0, "entity_wide_flag": false, "source_urls": [], "verification_status": "Unverified", "verification_notes": "Record from original dataset but could not be matched to USAspending expanded pull. Manual verification needed.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Unknown", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 13, "grade": "F", "components": {"federal_engagement": 0, "revenue_diversity": 4, "growth_signal": 0, "certifications": 0, "data_quality": 9}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "RC2 Pharma Connect LLC", "dba_name": "", "address": "130 Ridge Road", "city": "West Milford", "county": "Passaic", "zip": "07480", "latitude": 41.096117031886, "longitude": -74.374294906661, "naics_primary": "325120", "naics_description": "Industrial Gas Manufacturing", "sector": "Advanced Manufacturing & Logistics", "subsector": "Industrial Gas & Chemical Manufacturing", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-11", "geographic_cluster": "North", "slug": "rc2-pharma-connect-llc", "contract_descriptions": ["8510227560!PROPELLANT,MONOMETH", "8510391871!MMH", "8510792721!24 MMH CYLINDERS"], "total_dod_contract_value": 31628488.68, "total_federal_contract_value": 31628488.68, "total_federal_value_by_agency": {"DOD": 31628488.68}, "total_federal_value_by_year": {"FY2021": 6325697.74, "FY2022": 6325697.74, "FY2023": 6325697.74, "FY2024": 6325697.74, "FY2025": 6325697.72}, "federal_agency_count": 1, "is_multi_agency": false, "awarding_agencies": ["DOD"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 31628488.68, "grant_value_total": 0, "nj_place_of_performance_value": 31628488.68, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/YLFLHYQ2YEV7/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Stable", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 45, "grade": "C", "components": {"federal_engagement": 15, "revenue_diversity": 8, "growth_signal": 10, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "K. Hovnanian Companies", "dba_name": "", "address": "110 West Front St.", "city": "Red Bank", "county": "Monmouth", "zip": "07701", "latitude": 40.3468, "longitude": -74.0651, "naics_primary": "236117", "naics_description": "New Housing Operative Builders", "sector": "Defense & Aerospace", "subsector": "Military Construction & Infrastructure", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-04", "geographic_cluster": "Central", "slug": "k-hovnanian-companies", "contract_descriptions": ["CONSTRUCTION OF PRIVATIZED MILITARY HOUSING AT FT. DIX, NJ IN SUPPORT OF THE AIR FORCE HOUSING PRIVATIZATION."], "total_dod_contract_value": 43906000.0, "total_federal_contract_value": 43906000.0, "total_federal_value_by_agency": {}, "total_federal_value_by_year": {}, "federal_agency_count": 0, "is_multi_agency": false, "awarding_agencies": [], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 43906000.0, "grant_value_total": 0, "nj_place_of_performance_value": 43906000.0, "entity_wide_flag": false, "source_urls": [], "verification_status": "Unverified", "verification_notes": "Record from original dataset but could not be matched to USAspending expanded pull. Manual verification needed.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Unknown", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 13, "grade": "F", "components": {"federal_engagement": 0, "revenue_diversity": 4, "growth_signal": 0, "certifications": 0, "data_quality": 9}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Analytical Graphics, Inc.", "dba_name": "", "address": "7 Graphics Dr", "city": "Parsippany", "county": "Morris", "zip": "07054", "latitude": 40.8829, "longitude": -74.4069, "naics_primary": "541511", "naics_description": "Custom Computer Programming Services", "sector": "Defense & Aerospace", "subsector": "Defense IT & Cyber", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-11", "geographic_cluster": "North", "slug": "analytical-graphics-inc", "contract_descriptions": ["ANALYTICAL GRAPHICS INC SOFTWARE PRODUCT, PROFESSIONAL SERVICES, TECHNICAL SUPPORT AND MAINTENANCE"], "total_dod_contract_value": 39625419.95, "total_federal_contract_value": 39625419.95, "total_federal_value_by_agency": {"DOD": 39625419.95}, "total_federal_value_by_year": {"FY2021": 7925083.99, "FY2022": 7925083.99, "FY2023": 7925083.99, "FY2024": 7925083.99, "FY2025": 7925083.99}, "federal_agency_count": 1, "is_multi_agency": false, "awarding_agencies": ["DOD"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 39625419.95, "grant_value_total": 0, "nj_place_of_performance_value": 39625419.95, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/FYAKJ6JLAXN7/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Stable", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 45, "grade": "C", "components": {"federal_engagement": 15, "revenue_diversity": 8, "growth_signal": 10, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "Telos Solutions LLC", "dba_name": "", "address": "51 JFK Pkwy, First Floor West", "city": "Short Hills", "county": "Essex", "zip": "07078", "latitude": 40.7359, "longitude": -74.3271, "naics_primary": "541519", "naics_description": "Other Computer Related Services", "sector": "Defense & Aerospace", "subsector": "Defense IT & Cyber", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-11", "geographic_cluster": "North", "slug": "telos-solutions-llc", "contract_descriptions": ["SYSTEMS ENGINEERING TECHNICAL ASSISTANCE (SETA) SERVICES"], "total_dod_contract_value": 33453487.97, "total_federal_contract_value": 33453487.97, "total_federal_value_by_agency": {"DOD": 33453487.97}, "total_federal_value_by_year": {"FY2021": 6690697.59, "FY2022": 6690697.59, "FY2023": 6690697.59, "FY2024": 6690697.59, "FY2025": 6690697.61}, "federal_agency_count": 1, "is_multi_agency": false, "awarding_agencies": ["DOD"], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 33453487.97, "grant_value_total": 0, "nj_place_of_performance_value": 33453487.97, "entity_wide_flag": false, "source_urls": ["https://www.usaspending.gov/recipient/TBVMSMWN5F65/latest"], "verification_status": "Partially Verified", "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Stable", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 45, "grade": "C", "components": {"federal_engagement": 15, "revenue_diversity": 8, "growth_signal": 10, "certifications": 0, "data_quality": 12}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}, {"firm_name": "I.B.M. Corporation", "dba_name": "", "address": "1 New Orchard Rd", "city": "Armonk", "county": "Union", "zip": "07036", "latitude": 40.6346, "longitude": -74.2461, "naics_primary": "541512", "naics_description": "Computer Systems Design Services", "sector": "Defense & Aerospace", "subsector": "Defense IT & Cyber", "certifications": [], "employee_count": "", "cage_code": "", "duns_uei": "", "website": "", "congressional_district": "NJ-07", "geographic_cluster": "North", "slug": "i-b-m-corporation", "contract_descriptions": ["IBM ENTERPRISE LICENSE AGREEMENT"], "total_dod_contract_value": 35000000.0, "total_federal_contract_value": 35000000.0, "total_federal_value_by_agency": {}, "total_federal_value_by_year": {}, "federal_agency_count": 0, "is_multi_agency": false, "awarding_agencies": [], "sbir_sttr_awards": [], "sbir_sttr_total": 0, "sbir_sttr_award_count": 0, "total_economic_footprint": 35000000.0, "grant_value_total": 0, "nj_place_of_performance_value": 35000000.0, "entity_wide_flag": false, "source_urls": [], "verification_status": "Unverified", "verification_notes": "Record from original dataset but could not be matched to USAspending expanded pull. Manual verification needed.", "data_source": ["USAspending.gov"], "confidence_score": "High", "trend_direction": "Unknown", "cmmc_status": "Unknown", "hubzone_eligible": null, "hubzone_certified": false, "readiness_score": {"total": 13, "grade": "F", "components": {"federal_engagement": 0, "revenue_diversity": 4, "growth_signal": 0, "certifications": 0, "data_quality": 9}}, "parent_company": "", "alternate_names": [], "secondary_locations": [], "duplicate_group_id": null, "is_primary_entity": false, "county_verification_method": "ZIP-lookup", "county_verified": true, "last_updated": "2026-02-28"}]
+[
+  {
+    "firm_name": "Dmc Management Services, LLC",
+    "dba_name": "",
+    "address": "37 Kanouse Lane",
+    "city": "Montville",
+    "county": "Morris",
+    "zip": "07045",
+    "latitude": 40.911408517874,
+    "longitude": -74.372368379031,
+    "naics_primary": "531110",
+    "naics_description": "Lessors of Residential Buildings and Dwellings",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense Systems & Services",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-11",
+    "geographic_cluster": "North",
+    "slug": "dmc-management-services-llc",
+    "contract_descriptions": [
+      "LONG AND SHORT TERM LODGING SERVICES FOR CAPITAL REGION  IGF::OT::IGF",
+      "8(a) certified management services firm in Mercer County NJ. $17.2M in total federal contract obligations across 79 awards."
+    ],
+    "total_dod_contract_value": 43525316.99,
+    "total_federal_contract_value": 43525316.99,
+    "total_federal_value_by_agency": {},
+    "total_federal_value_by_year": {},
+    "federal_agency_count": 0,
+    "is_multi_agency": false,
+    "awarding_agencies": [],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 43525316.99,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 43525316.99,
+    "entity_wide_flag": false,
+    "source_urls": [],
+    "verification_status": "Unverified",
+    "verification_notes": "Record from original dataset but could not be matched to USAspending expanded pull. Manual verification needed.",
+    "data_source": [
+      "USAspending.gov",
+      "SBIR.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Unknown",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 13,
+      "grade": "F",
+      "components": {
+        "federal_engagement": 0,
+        "revenue_diversity": 4,
+        "growth_signal": 0,
+        "certifications": 0,
+        "data_quality": 9
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Envision Innovative Solutions, Inc.",
+    "dba_name": "",
+    "address": "2310 Hwy 34 Ste 1b",
+    "city": "Manasquan",
+    "county": "Monmouth",
+    "zip": "08736",
+    "latitude": 40.133055735763,
+    "longitude": -74.088608738981,
+    "naics_primary": "541715",
+    "naics_description": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense R&D & Applied Research",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "4JB87",
+    "duns_uei": "VNMLXFMQD976",
+    "website": "",
+    "congressional_district": "NJ-04",
+    "geographic_cluster": "Central",
+    "slug": "envision-innovative-solutions-inc",
+    "contract_descriptions": [
+      "SETA SERVICES FOR PEO IEW&S",
+      "PROVIDE SPECIFIC PERFORMANCE REQUIREMENTS, PERFORMANCE STANDARDS, METRICS, ASSESSMENT MEASURES, AND SCHEDULE FOR THE EXECUTION OF ECS IN SUPPORT OF MARINE AIR GROUND TASK FORCE (MAFTF) TACTICAL WARFAR",
+      "NEW TO"
+    ],
+    "total_dod_contract_value": 339352115.7,
+    "total_federal_contract_value": 339352115.7,
+    "total_federal_value_by_agency": {
+      "DOD": 339352115.7
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 18901727.98,
+      "FY2022": 38036311.7,
+      "FY2023": 97662770.83,
+      "FY2024": 95229035.28,
+      "FY2025": 89522269.91
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 339352115.7,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 339352115.7,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/VNMLXFMQD976/latest",
+      "https://sam.gov/entity/VNMLXFMQD976"
+    ],
+    "verification_status": "Verified",
+    "verification_notes": "Contract data from USAspending.gov API pull (Feb 2026). UEI: VNMLXFMQD976.",
+    "data_source": [
+      "USAspending.gov",
+      "SBIR.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Growing",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 56,
+      "grade": "B",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 8,
+        "growth_signal": 15,
+        "certifications": 0,
+        "data_quality": 18
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Data Intelligence LLC",
+    "dba_name": "",
+    "address": "2 Eves Dr Ste 250",
+    "city": "Marlton",
+    "county": "Burlington",
+    "zip": "08053",
+    "latitude": 39.8912,
+    "longitude": -74.9218,
+    "naics_primary": "541330",
+    "naics_description": "Engineering Services",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense Engineering Services",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-01",
+    "geographic_cluster": "South",
+    "slug": "data-intelligence-llc",
+    "contract_descriptions": [
+      "CYBERSECURITY & RISK MANAGEMENT FRAMEWORK (RMF) VALIDATION AND INFORMATION SYSTEMS SECURITY SERVICES SUPPORT",
+      "SERVICES IAW SOW - BIZ APPS",
+      "CORPORATE A&A VALIDATION SUPPORT & SUSTAINMENT SERVICES - THIS ACQUISITION WILL PROVIDE VALIDATION AND SUSTAINMENT SUPPORT TO NSWCDD AND NSWCDD DAM NECK."
+    ],
+    "total_dod_contract_value": 29018433.52,
+    "total_federal_contract_value": 29018433.52,
+    "total_federal_value_by_agency": {
+      "DOD": 29018433.52
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 2823638.0,
+      "FY2022": 7960517.88,
+      "FY2023": 7960517.88,
+      "FY2024": 5136879.88,
+      "FY2025": 5136879.88
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 29018433.52,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 29018433.52,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/KD9GAGCDPDN1/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Stable",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 45,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 8,
+        "growth_signal": 10,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Breeze-eastern LLC",
+    "dba_name": "",
+    "address": "35 Melanie Ln",
+    "city": "Whippany",
+    "county": "Morris",
+    "zip": "07981",
+    "latitude": 40.817739857847,
+    "longitude": -74.392524826651,
+    "naics_primary": "336413",
+    "naics_description": "Other Aircraft Parts and Auxiliary Equipment Manufacturing",
+    "sector": "Defense & Aerospace",
+    "subsector": "Aerospace & Aircraft Manufacturing",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-11",
+    "geographic_cluster": "North",
+    "slug": "breeze-eastern-llc",
+    "contract_descriptions": [
+      "OVERHAUL OF THE WINCH, AIRCRAFT MOUNTED FOR THE UH-60 BLACKHAWK (BE)",
+      "NOUN: WINCH, AIRCRAFT MOUN NSN:  1680-01-505-3913 PN:   BL-29900-30-1 (S7020-02801-109)",
+      "OVERHAUL OF THE WINCH, AIRCRAFT MOUNTED FOR THE UH-60 BLACKHAWK (BE)."
+    ],
+    "total_dod_contract_value": 97338077.58,
+    "total_federal_contract_value": 101266717.58,
+    "total_federal_value_by_agency": {
+      "DOD": 97338077.58,
+      "DHS": 3928640.0
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 5255155.6,
+      "FY2022": 28333347.2,
+      "FY2023": 24312842.8,
+      "FY2024": 21070140.11,
+      "FY2025": 22295231.87
+    },
+    "federal_agency_count": 2,
+    "is_multi_agency": true,
+    "awarding_agencies": [
+      "DOD",
+      "DHS"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 101266717.58,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 101266717.58,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/U1NDNFGSBWD8/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Growing",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 54,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 12,
+        "growth_signal": 15,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Johnson Technology Systems Inc.",
+    "dba_name": "",
+    "address": "100 Enterprise Dr Ste 301",
+    "city": "Rockaway",
+    "county": "Morris",
+    "zip": "07866",
+    "latitude": 40.9051,
+    "longitude": -74.5177,
+    "naics_primary": "541511",
+    "naics_description": "Custom Computer Programming Services",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense IT & Cyber",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-11",
+    "geographic_cluster": "North",
+    "slug": "johnson-technology-systems-inc",
+    "contract_descriptions": [
+      "DEVCOM AC PROJECT SUPPORT TASK ORDER",
+      "KMO SUPPORT SERVICES",
+      "CLOUD MIGRATION & HOSTING"
+    ],
+    "total_dod_contract_value": 207386457.84,
+    "total_federal_contract_value": 237794653.0,
+    "total_federal_value_by_agency": {
+      "DOD": 207386457.84,
+      "GSA": 30408195.16
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 53740671.67,
+      "FY2022": 49534107.36,
+      "FY2023": 45840854.47,
+      "FY2024": 45840854.47,
+      "FY2025": 42838165.03
+    },
+    "federal_agency_count": 2,
+    "is_multi_agency": true,
+    "awarding_agencies": [
+      "DOD",
+      "GSA"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 237794653.0,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 237794653.0,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/EF5CK4DHMCX7/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Stable",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 49,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 12,
+        "growth_signal": 10,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Abhzeen Icc JV Inc.",
+    "dba_name": "",
+    "address": "34 School Road East",
+    "city": "Marlboro",
+    "county": "Monmouth",
+    "zip": "07746",
+    "latitude": 40.310478373892,
+    "longitude": -74.244323111596,
+    "naics_primary": "236220",
+    "naics_description": "Commercial and Institutional Building Construction",
+    "sector": "Defense & Aerospace",
+    "subsector": "Military Construction & Infrastructure",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-04",
+    "geographic_cluster": "Central",
+    "slug": "abhzeen-icc-jv-inc",
+    "contract_descriptions": [
+      "REPAIR OF CENTRAL PLANT BLDG. 604, WEST POINT, NY 10996."
+    ],
+    "total_dod_contract_value": 39906000.0,
+    "total_federal_contract_value": 39906000.0,
+    "total_federal_value_by_agency": {},
+    "total_federal_value_by_year": {},
+    "federal_agency_count": 0,
+    "is_multi_agency": false,
+    "awarding_agencies": [],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 39906000.0,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 39906000.0,
+    "entity_wide_flag": false,
+    "source_urls": [],
+    "verification_status": "Unverified",
+    "verification_notes": "Record from original dataset but could not be matched to USAspending expanded pull. Manual verification needed.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Unknown",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 13,
+      "grade": "F",
+      "components": {
+        "federal_engagement": 0,
+        "revenue_diversity": 4,
+        "growth_signal": 0,
+        "certifications": 0,
+        "data_quality": 9
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Triman Industries Inc.",
+    "dba_name": "",
+    "address": "1500 Mt. Kemble Ave",
+    "city": "Morristown",
+    "county": "Morris",
+    "zip": "07960",
+    "latitude": 40.74532997444,
+    "longitude": -74.53266790132,
+    "naics_primary": "423120",
+    "naics_description": "Motor Vehicle Supplies and New Parts Merchant Wholesalers",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense Systems & Services",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-11",
+    "geographic_cluster": "North",
+    "slug": "triman-industries-inc",
+    "contract_descriptions": [
+      "COMMODITY NAME: ACTUATOR,ELECTRO-ME | NSN:3010-01-373-5945 | 171EA PLUS 100% OPTION, NOT EXERCISED",
+      "SERVER,RES-XR4-1U",
+      "8511366296!TRANS,RECT ASSEMBLY"
+    ],
+    "total_dod_contract_value": 96670516.56,
+    "total_federal_contract_value": 96670516.56,
+    "total_federal_value_by_agency": {
+      "DOD": 96670516.56
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 7387752.0,
+      "FY2022": 4630578.75,
+      "FY2023": 7048878.75,
+      "FY2024": 21051021.49,
+      "FY2025": 56552285.57
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 96670516.56,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 96670516.56,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/VWX3JEES4FF7/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Growing",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 50,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 8,
+        "growth_signal": 15,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Ranco Construction Inc.",
+    "dba_name": "",
+    "address": "2 Coleman Ct",
+    "city": "Southampton",
+    "county": "Burlington",
+    "zip": "08088",
+    "latitude": 39.9148,
+    "longitude": -74.7146,
+    "naics_primary": "236220",
+    "naics_description": "Commercial and Institutional Building Construction",
+    "sector": "Defense & Aerospace",
+    "subsector": "Military Construction & Infrastructure",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-03",
+    "geographic_cluster": "South",
+    "slug": "ranco-construction-inc",
+    "contract_descriptions": [
+      "CONSTRUCTION OF THE 177TH FW INSTALLATION ENTRY CONTROL FACILITY.",
+      "COMMERCIAL VEHICLE SECURITY ENTRY CONTROL POINT AT LAKEHURST NAVAL STATION WHICH IS PART OF JB- MDL, NJ. FOR MILITARY ENTRY CONTROL ACCESS ROADS, DENIAL ACCESS, BARRIERS AND FACILITIES, BOTH VISITOR C",
+      "CONSTRUCTION OF A FUEL CELL AND CORROSION CONTROL FACILITY WITH THE INSTALLATION OF EXTERIOR WINDOWS (OPTION 4), A STANDING SEAM METAL ROOF (OPTION 5),AND ASPHALT OVERLAY (OPTION 8)AT THE 177FW NJ ANG"
+    ],
+    "total_dod_contract_value": 175801591.28,
+    "total_federal_contract_value": 193604227.04,
+    "total_federal_value_by_agency": {
+      "DOD": 175801591.28,
+      "DOT": 17802635.76
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 32300519.94,
+      "FY2022": 51503605.62,
+      "FY2023": 46427982.38,
+      "FY2024": 33155124.1,
+      "FY2025": 30216995.0
+    },
+    "federal_agency_count": 2,
+    "is_multi_agency": true,
+    "awarding_agencies": [
+      "DOD",
+      "DOT"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 193604227.04,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 193604227.04,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/ES62PR9H1CK4/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Stable",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 49,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 12,
+        "growth_signal": 10,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Technology Program Services Associates, Inc.",
+    "dba_name": "",
+    "address": "2494 Ridgeway Blvd",
+    "city": "Whiting",
+    "county": "Ocean",
+    "zip": "08759",
+    "latitude": 40.01811344605,
+    "longitude": -74.307725297178,
+    "naics_primary": "541330",
+    "naics_description": "Engineering Services",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense Engineering Services",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-03",
+    "geographic_cluster": "Central",
+    "slug": "technology-program-services-associates-inc",
+    "contract_descriptions": [
+      "IGF::OT::IGF",
+      "TO N00178-05-D-4631-4Y01",
+      "8(a) certified professional services firm in Ocean County NJ. $24.5M in total federal contract obligations across 145 awards."
+    ],
+    "total_dod_contract_value": 203696780.03,
+    "total_federal_contract_value": 203696780.03,
+    "total_federal_value_by_agency": {
+      "DOD": 203696780.03
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 35849282.28,
+      "FY2022": 35849282.28,
+      "FY2023": 35849282.28,
+      "FY2024": 54021991.14,
+      "FY2025": 42126942.05
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 203696780.03,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 203696780.03,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/VC8JN5SEA3D1/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov",
+      "SBIR.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Growing",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 50,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 8,
+        "growth_signal": 15,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Sussex Rural Electric Cooperative",
+    "dba_name": "",
+    "address": "64 Route 639",
+    "city": "Sussex",
+    "county": "Sussex",
+    "zip": "07461",
+    "latitude": 41.201311898163,
+    "longitude": -74.626006593215,
+    "naics_primary": "238210",
+    "naics_description": "Electrical Contractors and Other Wiring Installation Contractors",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense Systems & Services",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-05",
+    "geographic_cluster": "North",
+    "slug": "sussex-rural-electric-cooperative",
+    "contract_descriptions": [
+      "ELECTRICAL REPAIRS AND INSTALLATION"
+    ],
+    "total_dod_contract_value": 177706047.15,
+    "total_federal_contract_value": 177706047.15,
+    "total_federal_value_by_agency": {
+      "DOD": 177706047.15
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 35541209.43,
+      "FY2022": 35541209.43,
+      "FY2023": 35541209.43,
+      "FY2024": 35541209.43,
+      "FY2025": 35541209.43
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 177706047.15,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 177706047.15,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/NKJVH5YG6QC6/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Stable",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 45,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 8,
+        "growth_signal": 10,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Aspen Consulting Group Inc.",
+    "dba_name": "",
+    "address": "2405 Shore Haven Ct",
+    "city": "Point Pleasant Boro",
+    "county": "Ocean",
+    "zip": "08742",
+    "latitude": 40.065992226824,
+    "longitude": -74.081734021178,
+    "naics_primary": "541715",
+    "naics_description": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense R&D & Applied Research",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-04",
+    "geographic_cluster": "Central",
+    "slug": "aspen-consulting-group-inc",
+    "contract_descriptions": [
+      "BROAD AGENCY ANNOUNCEMENT FOR SYNCHRONIZATION TECHNOLOGY AND ARCHITECTURE MODERNIZATION INVESTMENTS FOR NOBLE ADVANCEMENT",
+      "TEANCITY PROPOSAL WAS SUBMITTED IN RESPONSE TO BAA-W56KGU19R9999"
+    ],
+    "total_dod_contract_value": 135357631.71,
+    "total_federal_contract_value": 135357631.71,
+    "total_federal_value_by_agency": {
+      "DOD": 135357631.71
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 15521612.59,
+      "FY2022": 15521612.59,
+      "FY2023": 30213009.82,
+      "FY2024": 36102952.29,
+      "FY2025": 37998444.42
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [
+      {
+        "agency": "Department of Defense - Navy",
+        "program": "SBIR",
+        "amount": 239810.0,
+        "phase": "Phase I",
+        "year": 2024,
+        "topic": "N232-108",
+        "award_title": "Autonomous, Low-Cost Emitter for Electronic Warfare Training",
+        "proposal_award_date": "2023-12-04",
+        "award_url": "https://www.sbir.gov/awards?firm=ASPEN+CONSULTING+GROUP+INC&year=2024"
+      },
+      {
+        "agency": "Department of Defense - Army",
+        "program": "STTR",
+        "amount": 1099548.0,
+        "phase": "Phase II",
+        "year": 2021,
+        "topic": "A19C-T005",
+        "award_title": "Adaptable Tactical Communications",
+        "proposal_award_date": "2021-01-25",
+        "award_url": "https://www.sbir.gov/awards?firm=ASPEN+CONSULTING+GROUP+INC&year=2021"
+      }
+    ],
+    "sbir_sttr_total": 1339358.0,
+    "sbir_sttr_award_count": 2,
+    "total_economic_footprint": 136696989.71,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 135357631.71,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/LMV1FKPF2PS6/latest",
+      "https://www.sbir.gov/awards?firm=ASPEN+CONSULTING+GROUP+INC&year=2024",
+      "https://www.sbir.gov/awards?firm=ASPEN+CONSULTING+GROUP+INC&year=2021"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended. SBIR/STTR data from SBIR.gov bulk download (Feb 2026, 2 awards).",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Growing",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 72,
+      "grade": "A",
+      "components": {
+        "federal_engagement": 30,
+        "revenue_diversity": 12,
+        "growth_signal": 15,
+        "certifications": 3,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "S & E Services Inc.",
+    "dba_name": "",
+    "address": "1163 Inman Ave",
+    "city": "Edison",
+    "county": "Middlesex",
+    "zip": "08817",
+    "latitude": 40.596626977488,
+    "longitude": -74.368778981246,
+    "naics_primary": "236220",
+    "naics_description": "Commercial and Institutional Building Construction",
+    "sector": "Defense & Aerospace",
+    "subsector": "Military Construction & Infrastructure",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-06",
+    "geographic_cluster": "Central",
+    "slug": "s-e-services-inc",
+    "contract_descriptions": [
+      "RENO & MODERNIZATION OF PHASE 2",
+      "CAMP BUCKNER PHASE 3 U.S. MILITARY ACADEMY WEST POINT NY"
+    ],
+    "total_dod_contract_value": 25866761.98,
+    "total_federal_contract_value": 25866761.98,
+    "total_federal_value_by_agency": {
+      "DOD": 25866761.98
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 12933380.99,
+      "FY2022": 12933380.99,
+      "FY2023": 0.0,
+      "FY2024": 0.0,
+      "FY2025": 0.0
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 25866761.98,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 25866761.98,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/GVXKNAMRZPK6/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Stable",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 34,
+      "grade": "D",
+      "components": {
+        "federal_engagement": 4,
+        "revenue_diversity": 8,
+        "growth_signal": 10,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Wu & Associates Inc.",
+    "dba_name": "",
+    "address": "100 Gaither Dr Suite C",
+    "city": "Mount Laurel",
+    "county": "Burlington",
+    "zip": "08054",
+    "latitude": 39.936897777656,
+    "longitude": -74.955006404451,
+    "naics_primary": "236220",
+    "naics_description": "Commercial and Institutional Building Construction",
+    "sector": "Defense & Aerospace",
+    "subsector": "Military Construction & Infrastructure",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-01",
+    "geographic_cluster": "South",
+    "slug": "wu-associates-inc",
+    "contract_descriptions": [
+      "ONE-PHASE DESIGN-BUILD TO REPAIR A 1950S HANGAR AT NELLIS AFB FOR AN F-35 SQUADRON. INCLUDES HANGAR, ADMIN UPGRADES, AND 4,062 GSF ADDITION. 100% SMALL BUSINESS SET-ASIDE. POP: 720 DAYS. MAGNITUDE: $2",
+      "INSTALL FOD ODN INFRASTRUCTURE PROJECT"
+    ],
+    "total_dod_contract_value": 33593600.0,
+    "total_federal_contract_value": 33593600.0,
+    "total_federal_value_by_agency": {},
+    "total_federal_value_by_year": {},
+    "federal_agency_count": 0,
+    "is_multi_agency": false,
+    "awarding_agencies": [],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 33593600.0,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 33593600.0,
+    "entity_wide_flag": false,
+    "source_urls": [],
+    "verification_status": "Unverified",
+    "verification_notes": "Record from original dataset but could not be matched to USAspending expanded pull. Manual verification needed.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Unknown",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 13,
+      "grade": "F",
+      "components": {
+        "federal_engagement": 0,
+        "revenue_diversity": 4,
+        "growth_signal": 0,
+        "certifications": 0,
+        "data_quality": 9
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "RC2 Pharma Connect LLC",
+    "dba_name": "",
+    "address": "130 Ridge Road",
+    "city": "West Milford",
+    "county": "Passaic",
+    "zip": "07480",
+    "latitude": 41.096117031886,
+    "longitude": -74.374294906661,
+    "naics_primary": "325120",
+    "naics_description": "Industrial Gas Manufacturing",
+    "sector": "Advanced Manufacturing & Logistics",
+    "subsector": "Industrial Gas & Chemical Manufacturing",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-11",
+    "geographic_cluster": "North",
+    "slug": "rc2-pharma-connect-llc",
+    "contract_descriptions": [
+      "8510227560!PROPELLANT,MONOMETH",
+      "8510391871!MMH",
+      "8510792721!24 MMH CYLINDERS"
+    ],
+    "total_dod_contract_value": 31628488.68,
+    "total_federal_contract_value": 31628488.68,
+    "total_federal_value_by_agency": {},
+    "total_federal_value_by_year": {},
+    "federal_agency_count": 0,
+    "is_multi_agency": false,
+    "awarding_agencies": [],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 31628488.68,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 31628488.68,
+    "entity_wide_flag": false,
+    "source_urls": [],
+    "verification_status": "Unverified",
+    "verification_notes": "Record from original dataset but could not be matched to USAspending expanded pull. Manual verification needed.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Unknown",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 13,
+      "grade": "F",
+      "components": {
+        "federal_engagement": 0,
+        "revenue_diversity": 4,
+        "growth_signal": 0,
+        "certifications": 0,
+        "data_quality": 9
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Sensors Unlimited Inc.",
+    "dba_name": "",
+    "address": "3490 US Highway 1",
+    "city": "Princeton",
+    "county": "Mercer",
+    "zip": "08540",
+    "latitude": 40.306937190837,
+    "longitude": -74.667490407936,
+    "naics_primary": "541712",
+    "naics_description": "Research and Development in the Physical, Engineering, and Life Sciences (except Biotechnology)",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense R&D & Applied Research",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-12",
+    "geographic_cluster": "Central",
+    "slug": "sensors-unlimited-inc",
+    "contract_descriptions": [
+      "IGF::CT::IGF FY14 COMMUNICATIONS AND NETWORKING DISCOVERY AND INVENTION",
+      "SENSORS UNLIMITED INC (PCAR)",
+      "IGF::OT::IGF  THIS BROAD AGENCY ANNOUNCMENT EFFORT IS FOR SWIR MANUFACTURING TECHNOLOGY IMPROVEMENT."
+    ],
+    "total_dod_contract_value": 102409915.78,
+    "total_federal_contract_value": 128321453.06,
+    "total_federal_value_by_agency": {
+      "DOD": 102409915.78,
+      "Other": 25911537.28
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 31065617.63,
+      "FY2022": 34530395.97,
+      "FY2023": 34530395.97,
+      "FY2024": 24730265.15,
+      "FY2025": 3464778.34
+    },
+    "federal_agency_count": 2,
+    "is_multi_agency": true,
+    "awarding_agencies": [
+      "DOD",
+      "Other"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 128321453.06,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 128321453.06,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/LGMFFHJ28878/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Declining",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 42,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 12,
+        "growth_signal": 3,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Agate Construction Company, Inc.",
+    "dba_name": "",
+    "address": "1030 Rte 83",
+    "city": "Egg Harbor Township",
+    "county": "Atlantic",
+    "zip": "08234",
+    "latitude": 39.3882,
+    "longitude": -74.6182,
+    "naics_primary": "237990",
+    "naics_description": "Other Heavy and Civil Engineering Construction",
+    "sector": "Defense & Aerospace",
+    "subsector": "Military Construction & Infrastructure",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-02",
+    "geographic_cluster": "South",
+    "slug": "agate-construction-company-inc",
+    "contract_descriptions": [
+      "OAKWOOD BEACH NOURISHMENT",
+      "NORTH BULKHEAD AND SOUTH JETTY REPAIRS - INDIAN RIVER INLET - SUSSEX COUNTY, DELAWARE",
+      "RECONSTRUCTION OF FAILED HEREFORD INLET SEAWALL"
+    ],
+    "total_dod_contract_value": 83846272.07,
+    "total_federal_contract_value": 83846272.07,
+    "total_federal_value_by_agency": {
+      "DOD": 83846272.07
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 17297465.93,
+      "FY2022": 17297465.93,
+      "FY2023": 22182935.38,
+      "FY2024": 22182935.38,
+      "FY2025": 4885469.45
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 83846272.07,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 83846272.07,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/LWDCT59VLHH3/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Stable",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 45,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 8,
+        "growth_signal": 10,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Benard Associates Inc.",
+    "dba_name": "",
+    "address": "321 Hamburg Tpke Ste 4",
+    "city": "Wayne",
+    "county": "Passaic",
+    "zip": "07470",
+    "latitude": 40.948440656562,
+    "longitude": -74.207543427446,
+    "naics_primary": "236220",
+    "naics_description": "Commercial and Institutional Building Construction",
+    "sector": "Defense & Aerospace",
+    "subsector": "Military Construction & Infrastructure",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-11",
+    "geographic_cluster": "North",
+    "slug": "benard-associates-inc",
+    "contract_descriptions": [
+      "CONSTRUCT AN EXPLOSIVE ORDINANCE TECHNICAL FACILITY COMPRISED OF A MUNITIONS DISASSEMBLY FACILITY (9,384 SF), FIELD OPERATIONS, MAINTENANCE/EXPERIMENTATION FACILITY (12,816 SF"
+    ],
+    "total_dod_contract_value": 92106951.0,
+    "total_federal_contract_value": 92106951.0,
+    "total_federal_value_by_agency": {
+      "DOD": 92106951.0
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 30702317.0,
+      "FY2022": 30702317.0,
+      "FY2023": 30702317.0,
+      "FY2024": 0.0,
+      "FY2025": 0.0
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 92106951.0,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 92106951.0,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/FMK8PA8K3ZM5/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Stable",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 38,
+      "grade": "D",
+      "components": {
+        "federal_engagement": 8,
+        "revenue_diversity": 8,
+        "growth_signal": 10,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Employment Horizons Inc.",
+    "dba_name": "",
+    "address": "10 Ridgedale Ave",
+    "city": "Cedar Knolls",
+    "county": "Morris",
+    "zip": "07927",
+    "latitude": 40.831680168145,
+    "longitude": -74.445141810289,
+    "naics_primary": "561720",
+    "naics_description": "Janitorial Services",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense Systems & Services",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-11",
+    "geographic_cluster": "North",
+    "slug": "employment-horizons-inc",
+    "contract_descriptions": [
+      "CUSTODIAL SVCS ARSENAL-AT-LARGE, BASE YR",
+      "CUSTODIAL, GROUNDS MAINTENANCE, REFUSE RECYCLE, AND FIREBREAK MAINTENANCE FOR PICATINNY ARSENAL"
+    ],
+    "total_dod_contract_value": 150252051.09,
+    "total_federal_contract_value": 150252051.09,
+    "total_federal_value_by_agency": {
+      "DOD": 150252051.09
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 48097504.38,
+      "FY2022": 24086972.46,
+      "FY2023": 24086972.46,
+      "FY2024": 24086972.46,
+      "FY2025": 29893629.33
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 150252051.09,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 150252051.09,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/XSL7ZP6UNL89/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Declining",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 38,
+      "grade": "D",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 8,
+        "growth_signal": 3,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Rowan University",
+    "dba_name": "",
+    "address": "201 Mullica Hill Rd Rt 322",
+    "city": "Glassboro",
+    "county": "Gloucester",
+    "zip": "08028",
+    "latitude": 39.7026,
+    "longitude": -75.1118,
+    "naics_primary": "541715",
+    "naics_description": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense R&D & Applied Research",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-01",
+    "geographic_cluster": "South",
+    "slug": "rowan-university",
+    "contract_descriptions": [
+      "TURRET GUNNER SURVIVABILITY AND SIMULATION ENVIRONMENT R&D SERVICES",
+      "RESEARCH & DEVELOPMENT SERVICES BAA 20-C021, \"INNOVATIVE TECHNOLOGIES AND MATERIALS TO PROTECT NATIONAL SECURITY INTERESTS IN THE ARCTIC REGION\" U$37P00",
+      "RESEARCH & DEVELOPMENT - BASE YEAR BAA 21-C003 U437P00"
+    ],
+    "total_dod_contract_value": 174968748.91,
+    "total_federal_contract_value": 698367194.84,
+    "total_federal_value_by_agency": {
+      "Other": 523398445.93,
+      "DOD": 174968748.91
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 179443524.3,
+      "FY2022": 122698584.74,
+      "FY2023": 142704430.74,
+      "FY2024": 129607527.45,
+      "FY2025": 123913127.61
+    },
+    "federal_agency_count": 2,
+    "is_multi_agency": true,
+    "awarding_agencies": [
+      "Other",
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 698367194.84,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 698367194.84,
+    "entity_wide_flag": false,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/DMDEQP66JL85/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Stable",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 49,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 12,
+        "growth_signal": 10,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  },
+  {
+    "firm_name": "Caci Inc. - Federal",
+    "dba_name": "",
+    "address": "15 Vreeland Rd",
+    "city": "Florham Park",
+    "county": "Morris",
+    "zip": "07932",
+    "latitude": 40.79444729489,
+    "longitude": -74.375228158084,
+    "naics_primary": "541715",
+    "naics_description": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",
+    "sector": "Defense & Aerospace",
+    "subsector": "Defense R&D & Applied Research",
+    "certifications": [],
+    "employee_count": "",
+    "cage_code": "",
+    "duns_uei": "",
+    "website": "",
+    "congressional_district": "NJ-11",
+    "geographic_cluster": "North",
+    "slug": "caci-inc---federal",
+    "contract_descriptions": [
+      "MULTI-SPECTRAL LASER DEVELOPMENT",
+      "WIDEBAND SECURE AND PROTECTED EMITTER AND RECEIVER (WISPER) PROGRAM."
+    ],
+    "total_dod_contract_value": 143728405.0,
+    "total_federal_contract_value": 143728405.0,
+    "total_federal_value_by_agency": {
+      "DOD": 143728405.0
+    },
+    "total_federal_value_by_year": {
+      "FY2021": 28745681.0,
+      "FY2022": 28745681.0,
+      "FY2023": 28745681.0,
+      "FY2024": 28745681.0,
+      "FY2025": 28745681.0
+    },
+    "federal_agency_count": 1,
+    "is_multi_agency": false,
+    "awarding_agencies": [
+      "DOD"
+    ],
+    "sbir_sttr_awards": [],
+    "sbir_sttr_total": 0,
+    "sbir_sttr_award_count": 0,
+    "total_economic_footprint": 143728405.0,
+    "grant_value_total": 0,
+    "nj_place_of_performance_value": 0,
+    "entity_wide_flag": true,
+    "source_urls": [
+      "https://www.usaspending.gov/recipient/CAYLP62JXMB7/latest"
+    ],
+    "verification_status": "Partially Verified",
+    "verification_notes": "Some fields from USAspending.gov, others from original dataset. Cross-reference recommended. WARNING: Contract values likely reflect entity-wide totals, not NJ-specific operations.",
+    "data_source": [
+      "USAspending.gov"
+    ],
+    "confidence_score": "High",
+    "trend_direction": "Stable",
+    "cmmc_status": "Unknown",
+    "hubzone_eligible": null,
+    "hubzone_certified": false,
+    "readiness_score": {
+      "total": 45,
+      "grade": "C",
+      "components": {
+        "federal_engagement": 15,
+        "revenue_diversity": 8,
+        "growth_signal": 10,
+        "certifications": 0,
+        "data_quality": 12
+      }
+    },
+    "parent_company": "",
+    "alternate_names": [],
+    "secondary_locations": [],
+    "duplicate_group_id": null,
+    "is_primary_entity": false,
+    "county_verification_method": "ZIP-lookup",
+    "county_verified": true,
+    "last_updated": "2026-02-28"
+  }
+]

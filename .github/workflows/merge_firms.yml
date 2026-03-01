@@ -12,25 +12,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Merge parts
+      - name: Merge parts into firms_00
         run: |
-          python3 -c "
-import json
-with open('data/firms_00_part1.json') as f:
-    part1 = json.load(f)
-with open('data/firms_00_part2.json') as f:
-    part2 = json.load(f)
-combined = part1 + part2
-with open('data/firms_00.json', 'w') as f:
-    json.dump(combined, f)
-print(f'Combined {len(combined)} records into firms_00.json ({len(json.dumps(combined))} bytes)')
-"
+          python3 << 'EOF'
+          import json
+          with open('data/firms_00_part1.json') as f:
+              part1 = json.load(f)
+          with open('data/firms_00_part2.json') as f:
+              part2 = json.load(f)
+          combined = part1 + part2
+          with open('data/firms_00.json', 'w') as f:
+              json.dump(combined, f)
+          print(f'Combined {len(combined)} records')
+          EOF
       - name: Cleanup and commit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add data/firms_00.json
-          git rm -f data/firms_00_part1.json data/firms_00_part2.json || true
-          git rm -f .github/workflows/merge_firms.yml || true
+          git rm -f data/firms_00_part1.json data/firms_00_part2.json 2>/dev/null || true
+          git rm -f .github/workflows/merge_firms.yml 2>/dev/null || true
           git diff --cached --quiet || git commit -m 'Fix firms_00.json - restore all 20 records'
           git push
